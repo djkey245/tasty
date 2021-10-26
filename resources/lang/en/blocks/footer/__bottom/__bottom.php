@@ -1,0 +1,4 @@
+﻿<?php
+return [
+    "text" => "&copy; 2018 the holder of the objects of the inventory - the Valve Corporation. All included here mentioned brand names are registered and property of the respective companies. tasty-case.com - Right to participate in a stimulating event to draw unique digital product presented in the form of a limited personal non-transferable revocable exclusive license, without the right to sublicense, to use the digital objects is guaranteed to each user who committed who committed the purchase of goods in the amount of 50 Russian rubles. The timing of the action: from 30 October 2017 to 29 October 2018. Transparency of activities is provided by the presence on site of machinery of a Living Tape. The results of the event are summed up instantly by random selection of winners. The number of valid attempts of participation is unlimited and is directly proportional to the amount of the purchase.",
+];
