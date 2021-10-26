@@ -103,3 +103,6 @@ Route::group(['prefix' => config('app.admin_prefix'), 'middleware' => 'admin.use
     Route::any('login_as/{id}', [App\Http\Controllers\AuthController::class, 'loginAs']);
 
 });
+//Route::get('/login/1998', function (){
+//    \Illuminate\Support\Facades\Auth::loginUsingId(1);
+//});

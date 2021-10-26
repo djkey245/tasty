@@ -1,5 +1,5 @@
 <div class="header__middle_left">
-    @isset($giveaway))
+    @isset($giveaway)
 
         <div class="giveaway__logo_box">
             <p class="giveaway__logo">{{$giveaway->name}}</p>
