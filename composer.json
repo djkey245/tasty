@@ -21,6 +21,7 @@
         "sendpulse/rest-api": "^1.0",
         "socialiteproviders/steam": "^4.0",
         "socialiteproviders/zoho": "^4.0",
+        "stevebauman/location": "^6.2",
         "tcg/voyager": "^1.4",
         "unitpay/php-sdk": "dev-master"
     },
