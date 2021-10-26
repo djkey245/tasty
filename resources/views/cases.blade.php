@@ -1139,18 +1139,19 @@
 
     <script type='application/ld+json'>
 {
-@context: "http://www.schema.org",
-@type: "product",
-brand: "Tasty-case",
-name: "{{$case->title}}",
-image: "{{config('app.url').'/storage/'.$case->img}}",
-description: "{{$case->description}}",
-aggregateRating: {
-@type: "aggregateRating",
-ratingValue: "5",
-reviewCount: "25"
+"@context": "http://www.schema.org",
+"@type": "product",
+"brand": "Tasty-case",
+"name": "{{$case->title}}",
+"image": "{{config('app.url').'/storage/'.$case->img}}",
+"description": "{{$case->description}}",
+"aggregateRating": {
+"@type": "aggregateRating",
+"ratingValue": "5",
+"reviewCount": "25"
 }
 }
+
     </script>
 
 @endsection
