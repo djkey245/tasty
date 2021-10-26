@@ -1,0 +1,8 @@
+.topusers {
+  padding: 108px 0 90px;
+}
+.topusers__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

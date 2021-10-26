@@ -1,0 +1,316 @@
+.footer {
+    padding: 84px 0 118px;
+
+    background: #19153C;  
+
+    &__inner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        a {
+            .footer__txt {
+                position: relative;
+
+                &::after {
+                    position: absolute;
+
+                    content: "";
+
+                    width: 100%;
+                    height: 1px;
+
+                    left: 0;
+                    bottom: 0;
+
+                    background: #9F9F9F;            
+                }
+                &:hover::after {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+    &__col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__logo {
+        &_box {
+            height: 48px;
+
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__txt {
+        margin-top: 10px;
+
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: #9F9F9F;
+    }
+    .giveaway__logo {
+        font-size: 27px;
+        line-height: 32px;
+    }
+    &__links {
+        li {
+            margin-bottom: 24px;
+        }
+        width: 470px;
+        height: auto;
+
+        position: relative;
+
+        margin-right: -50px;
+
+        columns: 3;
+    }
+    &__link {
+        margin-bottom: 24px;
+
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 23px;
+        color: #FFFFFF;
+
+        white-space: nowrap;
+
+        position: relative;
+
+        &:last-child{
+            margin: 0;
+        }
+
+        &.yellow {
+            color: #F2AE23;
+
+            &::after {
+                background: #F2AE23;
+            }
+        }
+        &::after {
+            position: absolute;
+
+            content: "";
+
+            width: 100%;
+            height: 1px;
+
+            left: 0;
+            bottom: 0;
+
+            background: #fff;
+
+            opacity: 0;
+        }
+        &:hover::after {
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .footer {
+        &__links {
+            columns: 2;
+
+            margin-right: -25px;
+
+            width: 350px;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .footer {
+        padding: 75px 0;
+
+        &__inner {
+            flex-wrap: wrap;
+        }
+        &__col {
+            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4) {
+                width: 33%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            &:nth-child(4) {
+                margin-top: 50px;
+            }
+        }
+        &__txt {
+            text-align: center;
+        }
+        &__links {
+            margin: 50px 0 0;
+
+            width: 67%;
+
+            columns: 5;
+
+            li {
+                margin-bottom: 20px;
+            }
+        }
+        &__link {
+            margin-bottom: 20px;
+        }
+    }
+}
+@media screen and (max-width: 900px) {
+    .footer {
+        padding: 50px 0;
+
+        &__links {
+            columns: 3;
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer {
+        padding: 25px 0;
+        
+        .tastycase__logo {
+            font-size: 40px;
+        }
+        
+        &__txt {
+            br {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    .footer {
+        .tastycase__logo {
+            font-size: 36px;
+        }
+        &__logo_box {
+            height: 34px;
+
+            img {
+                width: 154px;
+            }
+        }
+        &__txt {
+            margin-top: 6px;
+
+            font-size: 11px;
+            line-height: 137%;
+        }
+        &__col {
+            &:nth-child(4) {
+                margin-top: 30px;
+            }
+        }
+        &__links {
+            margin: 30px -20px 0 0;
+
+            li {
+                margin-bottom: 16px;
+            }
+        }
+        &__link {
+            font-size: 16px;
+
+            margin-bottom: 16px;
+        }
+    } 
+}
+@media screen and (max-width: 600px) {
+    .footer {
+        .tastycase__logo {
+            font-size: 30px;
+        }
+        &__txt {
+            font-size: 9px;
+            line-height: 120%;
+        }
+        &__logo_box {
+            height: 20px;
+
+            img {
+                width: 130px;
+            }
+        } 
+        .giveaway__logo {
+            font-size: 24px;
+        }
+        &__links {
+            margin: 30px 0 0 0;
+
+            columns: unset;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            li {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        &__link {
+            font-size: 14px;
+            line-height: 1;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer {
+        padding: 0 0 25px;
+
+        &__col {
+            &:nth-child(1), 
+            &:nth-child(2), 
+            &:nth-child(3), 
+            &:nth-child(4) {
+                margin-top: 25px;
+
+                width: 50%;
+            } 
+            &:nth-child(4) {
+                flex-wrap: wrap;
+
+                height: 60px;
+            }
+        }
+        &__txt {
+            margin-top: 10px;
+        }
+        &__links {
+            margin: 20px 0 0 0;
+
+            width: 100%;
+
+            columns: 3;
+
+            li {
+                text-align: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 374px) {
+    .footer {
+        .tastycase__logo {
+            font-size: 28px;
+        }
+        .giveaway__logo {
+            font-size: 20px;
+        }
+        &__col {
+            &:nth-child(3) {
+                width: 42%;
+            }
+            &:nth-child(4) {
+                width: 58%;
+            }
+        }
+    }
+}

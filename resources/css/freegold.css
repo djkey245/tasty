@@ -1,0 +1,6010 @@
+.freegold {
+    position: relative;
+
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.freegold__line {
+    margin-top: 28px;
+
+    width: 100%;
+    height: 1px;
+
+    background: #20236D;
+}
+
+.freegold .ttl48 {
+    text-align: center;
+}
+
+.freegold .txt18 {
+    margin-top: 70px;
+    text-align: center;
+
+    color: #9296EF;
+}
+
+.freegold__container {
+    margin-top: 58px;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.freegold__left {
+    position: relative;
+
+    padding-right: 10px;
+
+    width: -webkit-calc(100% / 1440 * 360);
+
+    width: -moz-calc(100% / 1440 * 360);
+
+    width: calc(100% / 1440 * 360);
+    max-height: 642px;
+
+    overflow: auto;
+
+    scrollbar-color: #20236D #11134f;
+    scrollbar-width: auto;
+}
+
+.freegold__left::-webkit-scrollbar {
+    width: 6px;
+    background: #11134f;
+}
+
+.freegold__left::-webkit-scrollbar-thumb {
+    width: 6px;
+    background: #20236D;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: inset 1px 1px 4px #f3faf7;
+    box-shadow: inset 1px 1px 4px #f3faf7;
+}
+
+.freegold__left::-webkit-scrollbar-thumb:hover {
+    background: #4b4eaf;
+}
+
+.freegold__block {
+    margin-bottom: 18px;
+    padding-top: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 100%;
+    height: 204px;
+
+    background: #20236D;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.freegold__block:last-child {
+    margin-bottom: unset;
+}
+
+.freegold__block_ttl {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color: #6064C7;
+}
+
+.freegold__block_descr {
+    margin-top: 32px;
+
+    width: 100%;
+    height: 90px;
+
+    background: #181B5B;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.freegold__block_descr_ttl {
+    margin-left: 18px;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.freegold__block_descr_icon {
+    width: 36px;
+}
+
+.freegold__right {
+    padding-right: 10px;
+
+    width: -webkit-calc(100% / 1440 * 1054);
+
+    width: -moz-calc(100% / 1440 * 1054);
+
+    width: calc(100% / 1440 * 1054);
+    height: 642px;
+
+    overflow: auto;
+
+    scrollbar-color: #20236D #11134f;
+    scrollbar-width: auto;
+}
+
+.freegold__right::-webkit-scrollbar {
+    width: 6px;
+    background: #11134f;
+}
+
+.freegold__right::-webkit-scrollbar-thumb {
+    width: 6px;
+    background: #20236D;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: inset 1px 1px 4px #f3faf7;
+    box-shadow: inset 1px 1px 4px #f3faf7;
+}
+
+.freegold__right::-webkit-scrollbar-thumb:hover {
+    background: #4b4eaf;
+}
+
+.freegold__task {
+    margin-bottom: 18px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    width: 100%;
+    height: 114px;
+
+    background: #20236D;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.freegold__task:last-child {
+    margin-bottom: unset;
+}
+
+.freegold__task_left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.freegold__task_icon {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.freegold__task_left_sub {
+    margin-left: 26px;
+}
+
+.freegold__task_ttl {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.freegold__task_txt_cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.freegold__task_txt {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+    color: #6064C7;
+}
+
+.freegold__task_prize {
+    margin-left: 8px;
+
+    width: 66px;
+    height: 32px;
+
+    background: #292D84;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.freegold__task_prize_icon {
+    max-width: 18px;
+    max-height: 18px;
+}
+
+.freegold__task_prize_sum {
+    margin-left: 4px;
+
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+
+.freegold__task_start_wrap {
+    width: 118px;
+    height: 62px;
+
+    background: -webkit-linear-gradient(192.6deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+
+    background: -moz-linear-gradient(192.6deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+
+    background: -o-linear-gradient(192.6deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+
+    background: linear-gradient(257.4deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+
+    -webkit-border-radius: 10px;
+
+    -moz-border-radius: 10px;
+
+    border-radius: 10px;
+}
+
+.freegold__task_start {
+    width: 100%;
+    height: 100%;
+
+    background: transparent;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4DCE62;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #fff;
+
+    -webkit-transition: .3s ease-in-out;
+
+    -o-transition: .3s ease-in-out;
+
+    -moz-transition: .3s ease-in-out;
+
+    transition: .3s ease-in-out;
+}
+
+.freegold__task_start:hover {
+    background: #4DCE62;
+    -webkit-box-shadow: 0px 6px 31px rgba(77, 206, 98, 0.23);
+    -moz-box-shadow: 0px 6px 31px rgba(77, 206, 98, 0.23);
+    box-shadow: 0px 6px 31px rgba(77, 206, 98, 0.23);
+}
+
+.freegold__task_done {
+    width: 154px;
+    height: 62px;
+
+    background: #292D84;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+}
+
+.freegoldpopup {
+    /* display: none; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+
+    -webkit-transition: .3s ease-in-out;
+
+    -o-transition: .3s ease-in-out;
+
+    -moz-transition: .3s ease-in-out;
+
+    transition: .3s ease-in-out;
+}
+
+.freegoldpopup.show {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: visible;
+}
+
+.freegoldpopup__window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+
+    width: 650px;
+    height: auto;
+
+    background: #2A2E87;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+
+    /* transform: translate(-50%, -50%); */
+    -webkit-transform: translate(-50%, -50%) scale(.75) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) scale(.75) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) scale(.75) rotate(45deg);
+    -o-transform: translate(-50%, -50%) scale(.75) rotate(45deg);
+    transform: translate(-50%, -50%) scale(.75) rotate(45deg);
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center;
+
+    -webkit-transition: 0.3s ease-in-out;
+
+    -o-transition: 0.3s ease-in-out;
+
+    -moz-transition: 0.3s ease-in-out;
+
+    transition: 0.3s ease-in-out;
+
+    z-index: 100;
+
+    overflow: hidden;
+}
+
+.freegoldpopup__window.show {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.freegoldpopup__header {
+    position: relative;
+
+    width: 100%;
+    height: 124px;
+
+    background: #252979;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.freegoldpopup__ttl {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    color: #fff;
+}
+
+.freegoldpopup__close {
+    cursor: pointer;
+
+    position: absolute;
+
+    top: 30px;
+    right: 30px;
+
+    width: 24px;
+    height: 24px;
+}
+
+.freegoldpopup__close::before {
+    position: absolute;
+
+    content: "";
+
+    width: 100%;
+    height: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    background: #4D51AD;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    -o-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.freegoldpopup__close::after {
+    position: absolute;
+
+    content: "";
+
+    width: 100%;
+    height: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    background: #4D51AD;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    -moz-transform: translate(-50%, -50%) rotate(-45deg);
+    -ms-transform: translate(-50%, -50%) rotate(-45deg);
+    -o-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.freegoldpopup__close:hover::before,
+.freegoldpopup__close:hover::after {
+    background: #fff;
+}
+
+.freegoldpopup__block {
+    width: 100%;
+
+    padding-top: 24px;
+    padding-bottom: 52px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.freegoldpopup__block_ttl {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+}
+
+.freegoldpopup__block_list {
+    margin-top: 34px;
+}
+
+.freegoldpopup__block_li {
+    position: relative;
+
+    margin-bottom: 10px;
+
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: left;
+    color: #9296EF;
+}
+
+.freegoldpopup__block_li:last-child {
+    margin-bottom: unset;
+}
+
+.freegoldpopup__block_li_dot {
+    position: absolute;
+
+    top: 4px;
+    right: 100%;
+    margin-right: 14px;
+
+    width: 16px;
+    height: 16px;
+
+    -webkit-border-radius: 50%;
+
+    -moz-border-radius: 50%;
+
+    border-radius: 50%;
+
+    background: rgba(77, 206, 98, 0.12);
+}
+
+.freegoldpopup__block_li_dot::after {
+    position: absolute;
+
+    content: "";
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    width: 6px;
+    height: 6px;
+
+    -webkit-border-radius: 50%;
+
+    -moz-border-radius: 50%;
+
+    border-radius: 50%;
+
+    background: #4DCE62;
+}
+
+.freegoldpopup__start_container {
+    margin-top: 50px;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -moz-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.freegoldpopup__start_wrapper {
+    width: 218px;
+    height: 70px;
+
+    background: -webkit-linear-gradient(192.6deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+
+    background: -moz-linear-gradient(192.6deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+
+    background: -o-linear-gradient(192.6deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+
+    background: linear-gradient(257.4deg, #4DCE62 -232.17%, rgba(77, 206, 98, 0) 144.29%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.freegoldpopup__start {
+    width: 100%;
+    height: 100%;
+
+    background: transparent;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    color: #fff;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4DCE62;
+
+    -webkit-transition: .3s ease-in-out;
+
+    -o-transition: .3s ease-in-out;
+
+    -moz-transition: .3s ease-in-out;
+
+    transition: .3s ease-in-out;
+}
+
+.freegoldpopup__start:hover {
+    background: #4DCE62;
+    -webkit-box-shadow: 0px 6px 31px rgba(77, 206, 98, 0.23);
+    -moz-box-shadow: 0px 6px 31px rgba(77, 206, 98, 0.23);
+    box-shadow: 0px 6px 31px rgba(77, 206, 98, 0.23);
+}
+
+
+@media screen and (max-width: 1920px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1800));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1800));
+        padding-top: calc(60px * (1 / 1920 * 1800));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1800));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1800));
+        padding-bottom: calc(120px * (1 / 1920 * 1800));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1800));
+        height: -moz-calc(1px * (1 / 1920 * 1800));
+        height: calc(1px * (1 / 1920 * 1800));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1800));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1800));
+
+        margin-top: calc(28px * (1 / 1920 * 1800));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1800));
+        font-size: -moz-calc(48px * (1 / 1920 * 1800));
+        font-size: calc(48px * (1 / 1920 * 1800));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1800));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1800));
+        margin-top: calc(70px * (1 / 1920 * 1800));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1800));
+        font-size: -moz-calc(18px * (1 / 1920 * 1800));
+        font-size: calc(18px * (1 / 1920 * 1800));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1800));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1800));
+        margin-top: calc(58px * (1 / 1920 * 1800));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1800));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1800));
+        padding-right: calc(10px * (1 / 1920 * 1800));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1800));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1800));
+
+        max-height: calc(642px * (1 / 1920 * 1800));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1800));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1800));
+        margin-bottom: calc(18px * (1 / 1920 * 1800));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1800));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1800));
+        padding-top: calc(36px * (1 / 1920 * 1800));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1800));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1800));
+        padding-left: calc(20px * (1 / 1920 * 1800));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1800));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1800));
+        padding-right: calc(20px * (1 / 1920 * 1800));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1800));
+
+        height: -moz-calc(204px * (1 / 1920 * 1800));
+
+        height: calc(204px * (1 / 1920 * 1800));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1800));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1800));
+
+        border-radius: calc(25px * (1 / 1920 * 1800));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1800));
+        font-size: -moz-calc(18px * (1 / 1920 * 1800));
+        font-size: calc(18px * (1 / 1920 * 1800));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1800));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1800));
+        margin-top: calc(32px * (1 / 1920 * 1800));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1800));
+
+        height: -moz-calc(90px * (1 / 1920 * 1800));
+
+        height: calc(90px * (1 / 1920 * 1800));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1800));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1800));
+
+        border-radius: calc(22px * (1 / 1920 * 1800));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1800));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1800));
+        margin-left: calc(18px * (1 / 1920 * 1800));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1800));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1800));
+
+        font-size: calc(18px * (1 / 1920 * 1800));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1800));
+        width: -moz-calc(36px * (1 / 1920 * 1800));
+        width: calc(36px * (1 / 1920 * 1800));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1800));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1800));
+        padding-right: calc(10px * (1 / 1920 * 1800));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1800));
+
+        height: -moz-calc(642px * (1 / 1920 * 1800));
+
+        height: calc(642px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1800));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1800));
+        margin-bottom: calc(18px * (1 / 1920 * 1800));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1800));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1800));
+
+        padding-left: calc(30px * (1 / 1920 * 1800));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1800));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1800));
+        padding-right: calc(30px * (1 / 1920 * 1800));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1800));
+
+        height: -moz-calc(114px * (1 / 1920 * 1800));
+
+        height: calc(114px * (1 / 1920 * 1800));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1800));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1800));
+
+        border-radius: calc(25px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1800));
+        max-width: -moz-calc(60px * (1 / 1920 * 1800));
+        max-width: calc(60px * (1 / 1920 * 1800));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1800));
+        max-height: -moz-calc(60px * (1 / 1920 * 1800));
+        max-height: calc(60px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1800));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1800));
+        margin-left: calc(26px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1800));
+        font-size: -moz-calc(17px * (1 / 1920 * 1800));
+        font-size: calc(17px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1800));
+        font-size: -moz-calc(15px * (1 / 1920 * 1800));
+        font-size: calc(15px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1800));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1800));
+        margin-left: calc(8px * (1 / 1920 * 1800));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1800));
+
+        width: -moz-calc(66px * (1 / 1920 * 1800));
+
+        width: calc(66px * (1 / 1920 * 1800));
+        height: -webkit-calc(32px * (1 / 1920 * 1800));
+        height: -moz-calc(32px * (1 / 1920 * 1800));
+        height: calc(32px * (1 / 1920 * 1800));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1800));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1800));
+
+        border-radius: calc(8px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1800));
+        max-width: -moz-calc(18px * (1 / 1920 * 1800));
+        max-width: calc(18px * (1 / 1920 * 1800));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1800));
+        max-height: -moz-calc(18px * (1 / 1920 * 1800));
+        max-height: calc(18px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1800));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1800));
+        margin-left: calc(4px * (1 / 1920 * 1800));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1800));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1800));
+
+        font-size: calc(15px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1800));
+        width: -moz-calc(118px * (1 / 1920 * 1800));
+        width: calc(118px * (1 / 1920 * 1800));
+        height: -webkit-calc(62px * (1 / 1920 * 1800));
+        height: -moz-calc(62px * (1 / 1920 * 1800));
+        height: calc(62px * (1 / 1920 * 1800));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1800));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1800));
+
+        border-radius: calc(10px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1800));
+        border-width: -moz-calc(1px * (1 / 1920 * 1800));
+        border-width: calc(1px * (1 / 1920 * 1800));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1800));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1800));
+        border-radius: calc(10px * (1 / 1920 * 1800));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1800));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1800));
+
+        font-size: calc(15px * (1 / 1920 * 1800));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1800));
+        width: -moz-calc(154px * (1 / 1920 * 1800));
+        width: calc(154px * (1 / 1920 * 1800));
+        height: -webkit-calc(62px * (1 / 1920 * 1800));
+        height: -moz-calc(62px * (1 / 1920 * 1800));
+        height: calc(62px * (1 / 1920 * 1800));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1800));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1800));
+
+        border-radius: calc(10px * (1 / 1920 * 1800));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1800));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1800));
+
+        font-size: calc(15px * (1 / 1920 * 1800));
+    }
+
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1800));
+        width: -moz-calc(650px * (1 / 1920 * 1800));
+        width: calc(650px * (1 / 1920 * 1800));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1800));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1800));
+
+        border-radius: calc(32px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1800));
+        height: -moz-calc(124px * (1 / 1920 * 1800));
+        height: calc(124px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1800));
+        font-size: -moz-calc(21px * (1 / 1920 * 1800));
+        font-size: calc(21px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1800));
+        top: -moz-calc(30px * (1 / 1920 * 1800));
+        top: calc(30px * (1 / 1920 * 1800));
+        right: -webkit-calc(30px * (1 / 1920 * 1800));
+        right: -moz-calc(30px * (1 / 1920 * 1800));
+        right: calc(30px * (1 / 1920 * 1800));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1800));
+
+        width: -moz-calc(22px * (1 / 1920 * 1800));
+
+        width: calc(22px * (1 / 1920 * 1800));
+        height: -webkit-calc(22px * (1 / 1920 * 1800));
+        height: -moz-calc(22px * (1 / 1920 * 1800));
+        height: calc(22px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1800));
+        height: -moz-calc(2px * (1 / 1920 * 1800));
+        height: calc(2px * (1 / 1920 * 1800));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1800));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1800));
+        border-radius: calc(2px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1800));
+        height: -moz-calc(2px * (1 / 1920 * 1800));
+        height: calc(2px * (1 / 1920 * 1800));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1800));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1800));
+        border-radius: calc(2px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1800));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1800));
+        padding-top: calc(24px * (1 / 1920 * 1800));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1800));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1800));
+        padding-bottom: calc(52px * (1 / 1920 * 1800));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1800));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1800));
+        padding-left: calc(140px * (1 / 1920 * 1800));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1800));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1800));
+        padding-right: calc(140px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1800));
+        font-size: -moz-calc(21px * (1 / 1920 * 1800));
+        font-size: calc(21px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1800));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1800));
+        margin-top: calc(34px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1800));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1800));
+        margin-bottom: calc(10px * (1 / 1920 * 1800));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1800));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1800));
+
+        font-size: calc(21px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1800));
+        top: -moz-calc(4px * (1 / 1920 * 1800));
+        top: calc(4px * (1 / 1920 * 1800));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1800));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1800));
+        margin-right: calc(14px * (1 / 1920 * 1800));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1800));
+
+        width: -moz-calc(16px * (1 / 1920 * 1800));
+
+        width: calc(16px * (1 / 1920 * 1800));
+        height: -webkit-calc(16px * (1 / 1920 * 1800));
+        height: -moz-calc(16px * (1 / 1920 * 1800));
+        height: calc(16px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1800));
+        width: -moz-calc(6px * (1 / 1920 * 1800));
+        width: calc(6px * (1 / 1920 * 1800));
+        height: -webkit-calc(6px * (1 / 1920 * 1800));
+        height: -moz-calc(6px * (1 / 1920 * 1800));
+        height: calc(6px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1800));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1800));
+        margin-top: calc(50px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1800));
+        width: -moz-calc(218px * (1 / 1920 * 1800));
+        width: calc(218px * (1 / 1920 * 1800));
+        height: -webkit-calc(70px * (1 / 1920 * 1800));
+        height: -moz-calc(70px * (1 / 1920 * 1800));
+        height: calc(70px * (1 / 1920 * 1800));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1800));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1800));
+        border-radius: calc(10px * (1 / 1920 * 1800));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1800));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1800));
+        border-radius: calc(10px * (1 / 1920 * 1800));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1800));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1800));
+
+        font-size: calc(15px * (1 / 1920 * 1800));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1800));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1800));
+
+        border-width: calc(1px * (1 / 1920 * 1800));
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1700));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1700));
+        padding-top: calc(60px * (1 / 1920 * 1700));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1700));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1700));
+        padding-bottom: calc(120px * (1 / 1920 * 1700));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1700));
+        height: -moz-calc(1px * (1 / 1920 * 1700));
+        height: calc(1px * (1 / 1920 * 1700));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1700));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1700));
+
+        margin-top: calc(28px * (1 / 1920 * 1700));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1700));
+        font-size: -moz-calc(48px * (1 / 1920 * 1700));
+        font-size: calc(48px * (1 / 1920 * 1700));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1700));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1700));
+        margin-top: calc(70px * (1 / 1920 * 1700));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1700));
+        font-size: -moz-calc(18px * (1 / 1920 * 1700));
+        font-size: calc(18px * (1 / 1920 * 1700));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1700));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1700));
+        margin-top: calc(58px * (1 / 1920 * 1700));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1700));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1700));
+        padding-right: calc(10px * (1 / 1920 * 1700));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1700));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1700));
+
+        max-height: calc(642px * (1 / 1920 * 1700));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1700));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1700));
+        margin-bottom: calc(18px * (1 / 1920 * 1700));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1700));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1700));
+        padding-top: calc(36px * (1 / 1920 * 1700));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1700));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1700));
+        padding-left: calc(20px * (1 / 1920 * 1700));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1700));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1700));
+        padding-right: calc(20px * (1 / 1920 * 1700));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1700));
+
+        height: -moz-calc(204px * (1 / 1920 * 1700));
+
+        height: calc(204px * (1 / 1920 * 1700));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1700));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1700));
+
+        border-radius: calc(25px * (1 / 1920 * 1700));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1700));
+        font-size: -moz-calc(18px * (1 / 1920 * 1700));
+        font-size: calc(18px * (1 / 1920 * 1700));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1700));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1700));
+        margin-top: calc(32px * (1 / 1920 * 1700));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1700));
+
+        height: -moz-calc(90px * (1 / 1920 * 1700));
+
+        height: calc(90px * (1 / 1920 * 1700));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1700));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1700));
+
+        border-radius: calc(22px * (1 / 1920 * 1700));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1700));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1700));
+        margin-left: calc(18px * (1 / 1920 * 1700));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1700));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1700));
+
+        font-size: calc(18px * (1 / 1920 * 1700));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1700));
+        width: -moz-calc(36px * (1 / 1920 * 1700));
+        width: calc(36px * (1 / 1920 * 1700));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1700));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1700));
+        padding-right: calc(10px * (1 / 1920 * 1700));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1700));
+
+        height: -moz-calc(642px * (1 / 1920 * 1700));
+
+        height: calc(642px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1700));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1700));
+        margin-bottom: calc(18px * (1 / 1920 * 1700));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1700));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1700));
+
+        padding-left: calc(30px * (1 / 1920 * 1700));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1700));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1700));
+        padding-right: calc(30px * (1 / 1920 * 1700));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1700));
+
+        height: -moz-calc(114px * (1 / 1920 * 1700));
+
+        height: calc(114px * (1 / 1920 * 1700));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1700));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1700));
+
+        border-radius: calc(25px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1700));
+        max-width: -moz-calc(60px * (1 / 1920 * 1700));
+        max-width: calc(60px * (1 / 1920 * 1700));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1700));
+        max-height: -moz-calc(60px * (1 / 1920 * 1700));
+        max-height: calc(60px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1700));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1700));
+        margin-left: calc(26px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1700));
+        font-size: -moz-calc(17px * (1 / 1920 * 1700));
+        font-size: calc(17px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1700));
+        font-size: -moz-calc(15px * (1 / 1920 * 1700));
+        font-size: calc(15px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1700));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1700));
+        margin-left: calc(8px * (1 / 1920 * 1700));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1700));
+
+        width: -moz-calc(66px * (1 / 1920 * 1700));
+
+        width: calc(66px * (1 / 1920 * 1700));
+        height: -webkit-calc(32px * (1 / 1920 * 1700));
+        height: -moz-calc(32px * (1 / 1920 * 1700));
+        height: calc(32px * (1 / 1920 * 1700));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1700));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1700));
+
+        border-radius: calc(8px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1700));
+        max-width: -moz-calc(18px * (1 / 1920 * 1700));
+        max-width: calc(18px * (1 / 1920 * 1700));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1700));
+        max-height: -moz-calc(18px * (1 / 1920 * 1700));
+        max-height: calc(18px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1700));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1700));
+        margin-left: calc(4px * (1 / 1920 * 1700));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1700));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1700));
+
+        font-size: calc(15px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1700));
+        width: -moz-calc(118px * (1 / 1920 * 1700));
+        width: calc(118px * (1 / 1920 * 1700));
+        height: -webkit-calc(62px * (1 / 1920 * 1700));
+        height: -moz-calc(62px * (1 / 1920 * 1700));
+        height: calc(62px * (1 / 1920 * 1700));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1700));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1700));
+
+        border-radius: calc(10px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1700));
+        border-width: -moz-calc(1px * (1 / 1920 * 1700));
+        border-width: calc(1px * (1 / 1920 * 1700));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1700));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1700));
+        border-radius: calc(10px * (1 / 1920 * 1700));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1700));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1700));
+
+        font-size: calc(15px * (1 / 1920 * 1700));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1700));
+        width: -moz-calc(154px * (1 / 1920 * 1700));
+        width: calc(154px * (1 / 1920 * 1700));
+        height: -webkit-calc(62px * (1 / 1920 * 1700));
+        height: -moz-calc(62px * (1 / 1920 * 1700));
+        height: calc(62px * (1 / 1920 * 1700));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1700));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1700));
+
+        border-radius: calc(10px * (1 / 1920 * 1700));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1700));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1700));
+
+        font-size: calc(15px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1700));
+        width: -moz-calc(650px * (1 / 1920 * 1700));
+        width: calc(650px * (1 / 1920 * 1700));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1700));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1700));
+
+        border-radius: calc(32px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1700));
+        height: -moz-calc(124px * (1 / 1920 * 1700));
+        height: calc(124px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1700));
+        font-size: -moz-calc(21px * (1 / 1920 * 1700));
+        font-size: calc(21px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1700));
+        top: -moz-calc(30px * (1 / 1920 * 1700));
+        top: calc(30px * (1 / 1920 * 1700));
+        right: -webkit-calc(30px * (1 / 1920 * 1700));
+        right: -moz-calc(30px * (1 / 1920 * 1700));
+        right: calc(30px * (1 / 1920 * 1700));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1700));
+
+        width: -moz-calc(22px * (1 / 1920 * 1700));
+
+        width: calc(22px * (1 / 1920 * 1700));
+        height: -webkit-calc(22px * (1 / 1920 * 1700));
+        height: -moz-calc(22px * (1 / 1920 * 1700));
+        height: calc(22px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1700));
+        height: -moz-calc(2px * (1 / 1920 * 1700));
+        height: calc(2px * (1 / 1920 * 1700));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1700));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1700));
+        border-radius: calc(2px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1700));
+        height: -moz-calc(2px * (1 / 1920 * 1700));
+        height: calc(2px * (1 / 1920 * 1700));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1700));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1700));
+        border-radius: calc(2px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1700));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1700));
+        padding-top: calc(24px * (1 / 1920 * 1700));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1700));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1700));
+        padding-bottom: calc(52px * (1 / 1920 * 1700));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1700));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1700));
+        padding-left: calc(140px * (1 / 1920 * 1700));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1700));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1700));
+        padding-right: calc(140px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1700));
+        font-size: -moz-calc(21px * (1 / 1920 * 1700));
+        font-size: calc(21px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1700));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1700));
+        margin-top: calc(34px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1700));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1700));
+        margin-bottom: calc(10px * (1 / 1920 * 1700));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1700));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1700));
+
+        font-size: calc(21px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1700));
+        top: -moz-calc(4px * (1 / 1920 * 1700));
+        top: calc(4px * (1 / 1920 * 1700));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1700));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1700));
+        margin-right: calc(14px * (1 / 1920 * 1700));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1700));
+
+        width: -moz-calc(16px * (1 / 1920 * 1700));
+
+        width: calc(16px * (1 / 1920 * 1700));
+        height: -webkit-calc(16px * (1 / 1920 * 1700));
+        height: -moz-calc(16px * (1 / 1920 * 1700));
+        height: calc(16px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1700));
+        width: -moz-calc(6px * (1 / 1920 * 1700));
+        width: calc(6px * (1 / 1920 * 1700));
+        height: -webkit-calc(6px * (1 / 1920 * 1700));
+        height: -moz-calc(6px * (1 / 1920 * 1700));
+        height: calc(6px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1700));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1700));
+        margin-top: calc(50px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1700));
+        width: -moz-calc(218px * (1 / 1920 * 1700));
+        width: calc(218px * (1 / 1920 * 1700));
+        height: -webkit-calc(70px * (1 / 1920 * 1700));
+        height: -moz-calc(70px * (1 / 1920 * 1700));
+        height: calc(70px * (1 / 1920 * 1700));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1700));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1700));
+        border-radius: calc(10px * (1 / 1920 * 1700));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1700));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1700));
+        border-radius: calc(10px * (1 / 1920 * 1700));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1700));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1700));
+
+        font-size: calc(15px * (1 / 1920 * 1700));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1700));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1700));
+
+        border-width: calc(1px * (1 / 1920 * 1700));
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1600));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1600));
+        padding-top: calc(60px * (1 / 1920 * 1600));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1600));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1600));
+        padding-bottom: calc(120px * (1 / 1920 * 1600));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1600));
+        height: -moz-calc(1px * (1 / 1920 * 1600));
+        height: calc(1px * (1 / 1920 * 1600));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1600));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1600));
+
+        margin-top: calc(28px * (1 / 1920 * 1600));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1600));
+        font-size: -moz-calc(48px * (1 / 1920 * 1600));
+        font-size: calc(48px * (1 / 1920 * 1600));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1600));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1600));
+        margin-top: calc(70px * (1 / 1920 * 1600));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1600));
+        font-size: -moz-calc(18px * (1 / 1920 * 1600));
+        font-size: calc(18px * (1 / 1920 * 1600));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1600));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1600));
+        margin-top: calc(58px * (1 / 1920 * 1600));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1600));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1600));
+        padding-right: calc(10px * (1 / 1920 * 1600));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1600));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1600));
+
+        max-height: calc(642px * (1 / 1920 * 1600));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1600));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1600));
+        margin-bottom: calc(18px * (1 / 1920 * 1600));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1600));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1600));
+        padding-top: calc(36px * (1 / 1920 * 1600));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1600));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1600));
+        padding-left: calc(20px * (1 / 1920 * 1600));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1600));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1600));
+        padding-right: calc(20px * (1 / 1920 * 1600));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1600));
+
+        height: -moz-calc(204px * (1 / 1920 * 1600));
+
+        height: calc(204px * (1 / 1920 * 1600));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1600));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1600));
+
+        border-radius: calc(25px * (1 / 1920 * 1600));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1600));
+        font-size: -moz-calc(18px * (1 / 1920 * 1600));
+        font-size: calc(18px * (1 / 1920 * 1600));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1600));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1600));
+        margin-top: calc(32px * (1 / 1920 * 1600));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1600));
+
+        height: -moz-calc(90px * (1 / 1920 * 1600));
+
+        height: calc(90px * (1 / 1920 * 1600));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1600));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1600));
+
+        border-radius: calc(22px * (1 / 1920 * 1600));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1600));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1600));
+        margin-left: calc(18px * (1 / 1920 * 1600));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1600));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1600));
+
+        font-size: calc(18px * (1 / 1920 * 1600));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1600));
+        width: -moz-calc(36px * (1 / 1920 * 1600));
+        width: calc(36px * (1 / 1920 * 1600));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1600));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1600));
+        padding-right: calc(10px * (1 / 1920 * 1600));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1600));
+
+        height: -moz-calc(642px * (1 / 1920 * 1600));
+
+        height: calc(642px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1600));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1600));
+        margin-bottom: calc(18px * (1 / 1920 * 1600));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1600));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1600));
+
+        padding-left: calc(30px * (1 / 1920 * 1600));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1600));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1600));
+        padding-right: calc(30px * (1 / 1920 * 1600));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1600));
+
+        height: -moz-calc(114px * (1 / 1920 * 1600));
+
+        height: calc(114px * (1 / 1920 * 1600));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1600));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1600));
+
+        border-radius: calc(25px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1600));
+        max-width: -moz-calc(60px * (1 / 1920 * 1600));
+        max-width: calc(60px * (1 / 1920 * 1600));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1600));
+        max-height: -moz-calc(60px * (1 / 1920 * 1600));
+        max-height: calc(60px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1600));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1600));
+        margin-left: calc(26px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1600));
+        font-size: -moz-calc(17px * (1 / 1920 * 1600));
+        font-size: calc(17px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1600));
+        font-size: -moz-calc(15px * (1 / 1920 * 1600));
+        font-size: calc(15px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1600));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1600));
+        margin-left: calc(8px * (1 / 1920 * 1600));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1600));
+
+        width: -moz-calc(66px * (1 / 1920 * 1600));
+
+        width: calc(66px * (1 / 1920 * 1600));
+        height: -webkit-calc(32px * (1 / 1920 * 1600));
+        height: -moz-calc(32px * (1 / 1920 * 1600));
+        height: calc(32px * (1 / 1920 * 1600));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1600));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1600));
+
+        border-radius: calc(8px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1600));
+        max-width: -moz-calc(18px * (1 / 1920 * 1600));
+        max-width: calc(18px * (1 / 1920 * 1600));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1600));
+        max-height: -moz-calc(18px * (1 / 1920 * 1600));
+        max-height: calc(18px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1600));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1600));
+        margin-left: calc(4px * (1 / 1920 * 1600));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1600));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1600));
+
+        font-size: calc(15px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1600));
+        width: -moz-calc(118px * (1 / 1920 * 1600));
+        width: calc(118px * (1 / 1920 * 1600));
+        height: -webkit-calc(62px * (1 / 1920 * 1600));
+        height: -moz-calc(62px * (1 / 1920 * 1600));
+        height: calc(62px * (1 / 1920 * 1600));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1600));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1600));
+
+        border-radius: calc(10px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1600));
+        border-width: -moz-calc(1px * (1 / 1920 * 1600));
+        border-width: calc(1px * (1 / 1920 * 1600));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1600));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1600));
+        border-radius: calc(10px * (1 / 1920 * 1600));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1600));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1600));
+
+        font-size: calc(15px * (1 / 1920 * 1600));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1600));
+        width: -moz-calc(154px * (1 / 1920 * 1600));
+        width: calc(154px * (1 / 1920 * 1600));
+        height: -webkit-calc(62px * (1 / 1920 * 1600));
+        height: -moz-calc(62px * (1 / 1920 * 1600));
+        height: calc(62px * (1 / 1920 * 1600));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1600));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1600));
+
+        border-radius: calc(10px * (1 / 1920 * 1600));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1600));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1600));
+
+        font-size: calc(15px * (1 / 1920 * 1600));
+    }
+
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1600));
+        width: -moz-calc(650px * (1 / 1920 * 1600));
+        width: calc(650px * (1 / 1920 * 1600));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1600));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1600));
+
+        border-radius: calc(32px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1600));
+        height: -moz-calc(124px * (1 / 1920 * 1600));
+        height: calc(124px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1600));
+        font-size: -moz-calc(21px * (1 / 1920 * 1600));
+        font-size: calc(21px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1600));
+        top: -moz-calc(30px * (1 / 1920 * 1600));
+        top: calc(30px * (1 / 1920 * 1600));
+        right: -webkit-calc(30px * (1 / 1920 * 1600));
+        right: -moz-calc(30px * (1 / 1920 * 1600));
+        right: calc(30px * (1 / 1920 * 1600));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1600));
+
+        width: -moz-calc(22px * (1 / 1920 * 1600));
+
+        width: calc(22px * (1 / 1920 * 1600));
+        height: -webkit-calc(22px * (1 / 1920 * 1600));
+        height: -moz-calc(22px * (1 / 1920 * 1600));
+        height: calc(22px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1600));
+        height: -moz-calc(2px * (1 / 1920 * 1600));
+        height: calc(2px * (1 / 1920 * 1600));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1600));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1600));
+        border-radius: calc(2px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1600));
+        height: -moz-calc(2px * (1 / 1920 * 1600));
+        height: calc(2px * (1 / 1920 * 1600));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1600));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1600));
+        border-radius: calc(2px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1600));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1600));
+        padding-top: calc(24px * (1 / 1920 * 1600));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1600));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1600));
+        padding-bottom: calc(52px * (1 / 1920 * 1600));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1600));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1600));
+        padding-left: calc(140px * (1 / 1920 * 1600));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1600));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1600));
+        padding-right: calc(140px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1600));
+        font-size: -moz-calc(21px * (1 / 1920 * 1600));
+        font-size: calc(21px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1600));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1600));
+        margin-top: calc(34px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1600));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1600));
+        margin-bottom: calc(10px * (1 / 1920 * 1600));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1600));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1600));
+
+        font-size: calc(21px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1600));
+        top: -moz-calc(4px * (1 / 1920 * 1600));
+        top: calc(4px * (1 / 1920 * 1600));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1600));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1600));
+        margin-right: calc(14px * (1 / 1920 * 1600));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1600));
+
+        width: -moz-calc(16px * (1 / 1920 * 1600));
+
+        width: calc(16px * (1 / 1920 * 1600));
+        height: -webkit-calc(16px * (1 / 1920 * 1600));
+        height: -moz-calc(16px * (1 / 1920 * 1600));
+        height: calc(16px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1600));
+        width: -moz-calc(6px * (1 / 1920 * 1600));
+        width: calc(6px * (1 / 1920 * 1600));
+        height: -webkit-calc(6px * (1 / 1920 * 1600));
+        height: -moz-calc(6px * (1 / 1920 * 1600));
+        height: calc(6px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1600));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1600));
+        margin-top: calc(50px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1600));
+        width: -moz-calc(218px * (1 / 1920 * 1600));
+        width: calc(218px * (1 / 1920 * 1600));
+        height: -webkit-calc(70px * (1 / 1920 * 1600));
+        height: -moz-calc(70px * (1 / 1920 * 1600));
+        height: calc(70px * (1 / 1920 * 1600));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1600));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1600));
+        border-radius: calc(10px * (1 / 1920 * 1600));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1600));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1600));
+        border-radius: calc(10px * (1 / 1920 * 1600));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1600));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1600));
+
+        font-size: calc(15px * (1 / 1920 * 1600));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1600));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1600));
+
+        border-width: calc(1px * (1 / 1920 * 1600));
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1500));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1500));
+        padding-top: calc(60px * (1 / 1920 * 1500));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1500));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1500));
+        padding-bottom: calc(120px * (1 / 1920 * 1500));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1500));
+        height: -moz-calc(1px * (1 / 1920 * 1500));
+        height: calc(1px * (1 / 1920 * 1500));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1500));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1500));
+
+        margin-top: calc(28px * (1 / 1920 * 1500));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1500));
+        font-size: -moz-calc(48px * (1 / 1920 * 1500));
+        font-size: calc(48px * (1 / 1920 * 1500));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1500));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1500));
+        margin-top: calc(70px * (1 / 1920 * 1500));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1500));
+        font-size: -moz-calc(18px * (1 / 1920 * 1500));
+        font-size: calc(18px * (1 / 1920 * 1500));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1500));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1500));
+        margin-top: calc(58px * (1 / 1920 * 1500));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1500));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1500));
+        padding-right: calc(10px * (1 / 1920 * 1500));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1500));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1500));
+
+        max-height: calc(642px * (1 / 1920 * 1500));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1500));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1500));
+        margin-bottom: calc(18px * (1 / 1920 * 1500));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1500));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1500));
+        padding-top: calc(36px * (1 / 1920 * 1500));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1500));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1500));
+        padding-left: calc(20px * (1 / 1920 * 1500));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1500));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1500));
+        padding-right: calc(20px * (1 / 1920 * 1500));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1500));
+
+        height: -moz-calc(204px * (1 / 1920 * 1500));
+
+        height: calc(204px * (1 / 1920 * 1500));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1500));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1500));
+
+        border-radius: calc(25px * (1 / 1920 * 1500));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1500));
+        font-size: -moz-calc(18px * (1 / 1920 * 1500));
+        font-size: calc(18px * (1 / 1920 * 1500));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1500));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1500));
+        margin-top: calc(32px * (1 / 1920 * 1500));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1500));
+
+        height: -moz-calc(90px * (1 / 1920 * 1500));
+
+        height: calc(90px * (1 / 1920 * 1500));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1500));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1500));
+
+        border-radius: calc(22px * (1 / 1920 * 1500));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1500));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1500));
+        margin-left: calc(18px * (1 / 1920 * 1500));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1500));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1500));
+
+        font-size: calc(18px * (1 / 1920 * 1500));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1500));
+        width: -moz-calc(36px * (1 / 1920 * 1500));
+        width: calc(36px * (1 / 1920 * 1500));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1500));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1500));
+        padding-right: calc(10px * (1 / 1920 * 1500));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1500));
+
+        height: -moz-calc(642px * (1 / 1920 * 1500));
+
+        height: calc(642px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1500));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1500));
+        margin-bottom: calc(18px * (1 / 1920 * 1500));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1500));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1500));
+
+        padding-left: calc(30px * (1 / 1920 * 1500));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1500));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1500));
+        padding-right: calc(30px * (1 / 1920 * 1500));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1500));
+
+        height: -moz-calc(114px * (1 / 1920 * 1500));
+
+        height: calc(114px * (1 / 1920 * 1500));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1500));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1500));
+
+        border-radius: calc(25px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1500));
+        max-width: -moz-calc(60px * (1 / 1920 * 1500));
+        max-width: calc(60px * (1 / 1920 * 1500));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1500));
+        max-height: -moz-calc(60px * (1 / 1920 * 1500));
+        max-height: calc(60px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1500));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1500));
+        margin-left: calc(26px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1500));
+        font-size: -moz-calc(17px * (1 / 1920 * 1500));
+        font-size: calc(17px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1500));
+        font-size: -moz-calc(15px * (1 / 1920 * 1500));
+        font-size: calc(15px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1500));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1500));
+        margin-left: calc(8px * (1 / 1920 * 1500));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1500));
+
+        width: -moz-calc(66px * (1 / 1920 * 1500));
+
+        width: calc(66px * (1 / 1920 * 1500));
+        height: -webkit-calc(32px * (1 / 1920 * 1500));
+        height: -moz-calc(32px * (1 / 1920 * 1500));
+        height: calc(32px * (1 / 1920 * 1500));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1500));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1500));
+
+        border-radius: calc(8px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1500));
+        max-width: -moz-calc(18px * (1 / 1920 * 1500));
+        max-width: calc(18px * (1 / 1920 * 1500));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1500));
+        max-height: -moz-calc(18px * (1 / 1920 * 1500));
+        max-height: calc(18px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1500));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1500));
+        margin-left: calc(4px * (1 / 1920 * 1500));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1500));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1500));
+
+        font-size: calc(15px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1500));
+        width: -moz-calc(118px * (1 / 1920 * 1500));
+        width: calc(118px * (1 / 1920 * 1500));
+        height: -webkit-calc(62px * (1 / 1920 * 1500));
+        height: -moz-calc(62px * (1 / 1920 * 1500));
+        height: calc(62px * (1 / 1920 * 1500));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1500));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1500));
+
+        border-radius: calc(10px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1500));
+        border-width: -moz-calc(1px * (1 / 1920 * 1500));
+        border-width: calc(1px * (1 / 1920 * 1500));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1500));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1500));
+        border-radius: calc(10px * (1 / 1920 * 1500));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1500));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1500));
+
+        font-size: calc(15px * (1 / 1920 * 1500));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1500));
+        width: -moz-calc(154px * (1 / 1920 * 1500));
+        width: calc(154px * (1 / 1920 * 1500));
+        height: -webkit-calc(62px * (1 / 1920 * 1500));
+        height: -moz-calc(62px * (1 / 1920 * 1500));
+        height: calc(62px * (1 / 1920 * 1500));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1500));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1500));
+
+        border-radius: calc(10px * (1 / 1920 * 1500));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1500));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1500));
+
+        font-size: calc(15px * (1 / 1920 * 1500));
+    }
+
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1500));
+        width: -moz-calc(650px * (1 / 1920 * 1500));
+        width: calc(650px * (1 / 1920 * 1500));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1500));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1500));
+
+        border-radius: calc(32px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1500));
+        height: -moz-calc(124px * (1 / 1920 * 1500));
+        height: calc(124px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1500));
+        font-size: -moz-calc(21px * (1 / 1920 * 1500));
+        font-size: calc(21px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1500));
+        top: -moz-calc(30px * (1 / 1920 * 1500));
+        top: calc(30px * (1 / 1920 * 1500));
+        right: -webkit-calc(30px * (1 / 1920 * 1500));
+        right: -moz-calc(30px * (1 / 1920 * 1500));
+        right: calc(30px * (1 / 1920 * 1500));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1500));
+
+        width: -moz-calc(22px * (1 / 1920 * 1500));
+
+        width: calc(22px * (1 / 1920 * 1500));
+        height: -webkit-calc(22px * (1 / 1920 * 1500));
+        height: -moz-calc(22px * (1 / 1920 * 1500));
+        height: calc(22px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1500));
+        height: -moz-calc(2px * (1 / 1920 * 1500));
+        height: calc(2px * (1 / 1920 * 1500));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1500));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1500));
+        border-radius: calc(2px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1500));
+        height: -moz-calc(2px * (1 / 1920 * 1500));
+        height: calc(2px * (1 / 1920 * 1500));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1500));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1500));
+        border-radius: calc(2px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1500));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1500));
+        padding-top: calc(24px * (1 / 1920 * 1500));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1500));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1500));
+        padding-bottom: calc(52px * (1 / 1920 * 1500));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1500));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1500));
+        padding-left: calc(140px * (1 / 1920 * 1500));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1500));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1500));
+        padding-right: calc(140px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1500));
+        font-size: -moz-calc(21px * (1 / 1920 * 1500));
+        font-size: calc(21px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1500));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1500));
+        margin-top: calc(34px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1500));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1500));
+        margin-bottom: calc(10px * (1 / 1920 * 1500));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1500));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1500));
+
+        font-size: calc(21px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1500));
+        top: -moz-calc(4px * (1 / 1920 * 1500));
+        top: calc(4px * (1 / 1920 * 1500));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1500));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1500));
+        margin-right: calc(14px * (1 / 1920 * 1500));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1500));
+
+        width: -moz-calc(16px * (1 / 1920 * 1500));
+
+        width: calc(16px * (1 / 1920 * 1500));
+        height: -webkit-calc(16px * (1 / 1920 * 1500));
+        height: -moz-calc(16px * (1 / 1920 * 1500));
+        height: calc(16px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1500));
+        width: -moz-calc(6px * (1 / 1920 * 1500));
+        width: calc(6px * (1 / 1920 * 1500));
+        height: -webkit-calc(6px * (1 / 1920 * 1500));
+        height: -moz-calc(6px * (1 / 1920 * 1500));
+        height: calc(6px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1500));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1500));
+        margin-top: calc(50px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1500));
+        width: -moz-calc(218px * (1 / 1920 * 1500));
+        width: calc(218px * (1 / 1920 * 1500));
+        height: -webkit-calc(70px * (1 / 1920 * 1500));
+        height: -moz-calc(70px * (1 / 1920 * 1500));
+        height: calc(70px * (1 / 1920 * 1500));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1500));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1500));
+        border-radius: calc(10px * (1 / 1920 * 1500));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1500));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1500));
+        border-radius: calc(10px * (1 / 1920 * 1500));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1500));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1500));
+
+        font-size: calc(15px * (1 / 1920 * 1500));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1500));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1500));
+
+        border-width: calc(1px * (1 / 1920 * 1500));
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1400));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1400));
+        padding-top: calc(60px * (1 / 1920 * 1400));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1400));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1400));
+        padding-bottom: calc(120px * (1 / 1920 * 1400));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1400));
+        height: -moz-calc(1px * (1 / 1920 * 1400));
+        height: calc(1px * (1 / 1920 * 1400));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1400));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1400));
+
+        margin-top: calc(28px * (1 / 1920 * 1400));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1400));
+        font-size: -moz-calc(48px * (1 / 1920 * 1400));
+        font-size: calc(48px * (1 / 1920 * 1400));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1400));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1400));
+        margin-top: calc(70px * (1 / 1920 * 1400));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1400));
+        font-size: -moz-calc(18px * (1 / 1920 * 1400));
+        font-size: calc(18px * (1 / 1920 * 1400));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1400));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1400));
+        margin-top: calc(58px * (1 / 1920 * 1400));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1400));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1400));
+        padding-right: calc(10px * (1 / 1920 * 1400));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1400));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1400));
+
+        max-height: calc(642px * (1 / 1920 * 1400));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1400));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1400));
+        margin-bottom: calc(18px * (1 / 1920 * 1400));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1400));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1400));
+        padding-top: calc(36px * (1 / 1920 * 1400));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1400));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1400));
+        padding-left: calc(20px * (1 / 1920 * 1400));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1400));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1400));
+        padding-right: calc(20px * (1 / 1920 * 1400));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1400));
+
+        height: -moz-calc(204px * (1 / 1920 * 1400));
+
+        height: calc(204px * (1 / 1920 * 1400));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1400));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1400));
+
+        border-radius: calc(25px * (1 / 1920 * 1400));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1400));
+        font-size: -moz-calc(18px * (1 / 1920 * 1400));
+        font-size: calc(18px * (1 / 1920 * 1400));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1400));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1400));
+        margin-top: calc(32px * (1 / 1920 * 1400));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1400));
+
+        height: -moz-calc(90px * (1 / 1920 * 1400));
+
+        height: calc(90px * (1 / 1920 * 1400));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1400));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1400));
+
+        border-radius: calc(22px * (1 / 1920 * 1400));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1400));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1400));
+        margin-left: calc(18px * (1 / 1920 * 1400));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1400));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1400));
+
+        font-size: calc(18px * (1 / 1920 * 1400));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1400));
+        width: -moz-calc(36px * (1 / 1920 * 1400));
+        width: calc(36px * (1 / 1920 * 1400));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1400));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1400));
+        padding-right: calc(10px * (1 / 1920 * 1400));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1400));
+
+        height: -moz-calc(642px * (1 / 1920 * 1400));
+
+        height: calc(642px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1400));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1400));
+        margin-bottom: calc(18px * (1 / 1920 * 1400));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1400));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1400));
+
+        padding-left: calc(30px * (1 / 1920 * 1400));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1400));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1400));
+        padding-right: calc(30px * (1 / 1920 * 1400));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1400));
+
+        height: -moz-calc(114px * (1 / 1920 * 1400));
+
+        height: calc(114px * (1 / 1920 * 1400));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1400));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1400));
+
+        border-radius: calc(25px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1400));
+        max-width: -moz-calc(60px * (1 / 1920 * 1400));
+        max-width: calc(60px * (1 / 1920 * 1400));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1400));
+        max-height: -moz-calc(60px * (1 / 1920 * 1400));
+        max-height: calc(60px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1400));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1400));
+        margin-left: calc(26px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1400));
+        font-size: -moz-calc(17px * (1 / 1920 * 1400));
+        font-size: calc(17px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1400));
+        font-size: -moz-calc(15px * (1 / 1920 * 1400));
+        font-size: calc(15px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1400));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1400));
+        margin-left: calc(8px * (1 / 1920 * 1400));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1400));
+
+        width: -moz-calc(66px * (1 / 1920 * 1400));
+
+        width: calc(66px * (1 / 1920 * 1400));
+        height: -webkit-calc(32px * (1 / 1920 * 1400));
+        height: -moz-calc(32px * (1 / 1920 * 1400));
+        height: calc(32px * (1 / 1920 * 1400));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1400));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1400));
+
+        border-radius: calc(8px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1400));
+        max-width: -moz-calc(18px * (1 / 1920 * 1400));
+        max-width: calc(18px * (1 / 1920 * 1400));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1400));
+        max-height: -moz-calc(18px * (1 / 1920 * 1400));
+        max-height: calc(18px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1400));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1400));
+        margin-left: calc(4px * (1 / 1920 * 1400));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1400));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1400));
+
+        font-size: calc(15px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1400));
+        width: -moz-calc(118px * (1 / 1920 * 1400));
+        width: calc(118px * (1 / 1920 * 1400));
+        height: -webkit-calc(62px * (1 / 1920 * 1400));
+        height: -moz-calc(62px * (1 / 1920 * 1400));
+        height: calc(62px * (1 / 1920 * 1400));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1400));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1400));
+
+        border-radius: calc(10px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1400));
+        border-width: -moz-calc(1px * (1 / 1920 * 1400));
+        border-width: calc(1px * (1 / 1920 * 1400));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1400));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1400));
+        border-radius: calc(10px * (1 / 1920 * 1400));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1400));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1400));
+
+        font-size: calc(15px * (1 / 1920 * 1400));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1400));
+        width: -moz-calc(154px * (1 / 1920 * 1400));
+        width: calc(154px * (1 / 1920 * 1400));
+        height: -webkit-calc(62px * (1 / 1920 * 1400));
+        height: -moz-calc(62px * (1 / 1920 * 1400));
+        height: calc(62px * (1 / 1920 * 1400));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1400));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1400));
+
+        border-radius: calc(10px * (1 / 1920 * 1400));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1400));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1400));
+
+        font-size: calc(15px * (1 / 1920 * 1400));
+    }
+
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1400));
+        width: -moz-calc(650px * (1 / 1920 * 1400));
+        width: calc(650px * (1 / 1920 * 1400));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1400));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1400));
+
+        border-radius: calc(32px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1400));
+        height: -moz-calc(124px * (1 / 1920 * 1400));
+        height: calc(124px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1400));
+        font-size: -moz-calc(21px * (1 / 1920 * 1400));
+        font-size: calc(21px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1400));
+        top: -moz-calc(30px * (1 / 1920 * 1400));
+        top: calc(30px * (1 / 1920 * 1400));
+        right: -webkit-calc(30px * (1 / 1920 * 1400));
+        right: -moz-calc(30px * (1 / 1920 * 1400));
+        right: calc(30px * (1 / 1920 * 1400));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1400));
+
+        width: -moz-calc(22px * (1 / 1920 * 1400));
+
+        width: calc(22px * (1 / 1920 * 1400));
+        height: -webkit-calc(22px * (1 / 1920 * 1400));
+        height: -moz-calc(22px * (1 / 1920 * 1400));
+        height: calc(22px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1400));
+        height: -moz-calc(2px * (1 / 1920 * 1400));
+        height: calc(2px * (1 / 1920 * 1400));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1400));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1400));
+        border-radius: calc(2px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1400));
+        height: -moz-calc(2px * (1 / 1920 * 1400));
+        height: calc(2px * (1 / 1920 * 1400));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1400));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1400));
+        border-radius: calc(2px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1400));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1400));
+        padding-top: calc(24px * (1 / 1920 * 1400));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1400));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1400));
+        padding-bottom: calc(52px * (1 / 1920 * 1400));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1400));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1400));
+        padding-left: calc(140px * (1 / 1920 * 1400));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1400));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1400));
+        padding-right: calc(140px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1400));
+        font-size: -moz-calc(21px * (1 / 1920 * 1400));
+        font-size: calc(21px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1400));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1400));
+        margin-top: calc(34px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1400));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1400));
+        margin-bottom: calc(10px * (1 / 1920 * 1400));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1400));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1400));
+
+        font-size: calc(21px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1400));
+        top: -moz-calc(4px * (1 / 1920 * 1400));
+        top: calc(4px * (1 / 1920 * 1400));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1400));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1400));
+        margin-right: calc(14px * (1 / 1920 * 1400));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1400));
+
+        width: -moz-calc(16px * (1 / 1920 * 1400));
+
+        width: calc(16px * (1 / 1920 * 1400));
+        height: -webkit-calc(16px * (1 / 1920 * 1400));
+        height: -moz-calc(16px * (1 / 1920 * 1400));
+        height: calc(16px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1400));
+        width: -moz-calc(6px * (1 / 1920 * 1400));
+        width: calc(6px * (1 / 1920 * 1400));
+        height: -webkit-calc(6px * (1 / 1920 * 1400));
+        height: -moz-calc(6px * (1 / 1920 * 1400));
+        height: calc(6px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1400));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1400));
+        margin-top: calc(50px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1400));
+        width: -moz-calc(218px * (1 / 1920 * 1400));
+        width: calc(218px * (1 / 1920 * 1400));
+        height: -webkit-calc(70px * (1 / 1920 * 1400));
+        height: -moz-calc(70px * (1 / 1920 * 1400));
+        height: calc(70px * (1 / 1920 * 1400));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1400));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1400));
+        border-radius: calc(10px * (1 / 1920 * 1400));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1400));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1400));
+        border-radius: calc(10px * (1 / 1920 * 1400));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1400));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1400));
+
+        font-size: calc(15px * (1 / 1920 * 1400));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1400));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1400));
+
+        border-width: calc(1px * (1 / 1920 * 1400));
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1300));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1300));
+        padding-top: calc(60px * (1 / 1920 * 1300));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1300));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1300));
+        padding-bottom: calc(120px * (1 / 1920 * 1300));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1300));
+        height: -moz-calc(1px * (1 / 1920 * 1300));
+        height: calc(1px * (1 / 1920 * 1300));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1300));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1300));
+
+        margin-top: calc(28px * (1 / 1920 * 1300));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1300));
+        font-size: -moz-calc(48px * (1 / 1920 * 1300));
+        font-size: calc(48px * (1 / 1920 * 1300));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1300));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1300));
+        margin-top: calc(70px * (1 / 1920 * 1300));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1300));
+        font-size: -moz-calc(18px * (1 / 1920 * 1300));
+        font-size: calc(18px * (1 / 1920 * 1300));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1300));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1300));
+        margin-top: calc(58px * (1 / 1920 * 1300));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1300));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1300));
+        padding-right: calc(10px * (1 / 1920 * 1300));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1300));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1300));
+
+        max-height: calc(642px * (1 / 1920 * 1300));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1300));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1300));
+        margin-bottom: calc(18px * (1 / 1920 * 1300));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1300));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1300));
+        padding-top: calc(36px * (1 / 1920 * 1300));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1300));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1300));
+        padding-left: calc(20px * (1 / 1920 * 1300));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1300));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1300));
+        padding-right: calc(20px * (1 / 1920 * 1300));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1300));
+
+        height: -moz-calc(204px * (1 / 1920 * 1300));
+
+        height: calc(204px * (1 / 1920 * 1300));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1300));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1300));
+
+        border-radius: calc(25px * (1 / 1920 * 1300));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1300));
+        font-size: -moz-calc(18px * (1 / 1920 * 1300));
+        font-size: calc(18px * (1 / 1920 * 1300));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1300));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1300));
+        margin-top: calc(32px * (1 / 1920 * 1300));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1300));
+
+        height: -moz-calc(90px * (1 / 1920 * 1300));
+
+        height: calc(90px * (1 / 1920 * 1300));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1300));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1300));
+
+        border-radius: calc(22px * (1 / 1920 * 1300));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1300));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1300));
+        margin-left: calc(18px * (1 / 1920 * 1300));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1300));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1300));
+
+        font-size: calc(18px * (1 / 1920 * 1300));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1300));
+        width: -moz-calc(36px * (1 / 1920 * 1300));
+        width: calc(36px * (1 / 1920 * 1300));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1300));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1300));
+        padding-right: calc(10px * (1 / 1920 * 1300));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1300));
+
+        height: -moz-calc(642px * (1 / 1920 * 1300));
+
+        height: calc(642px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1300));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1300));
+        margin-bottom: calc(18px * (1 / 1920 * 1300));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1300));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1300));
+
+        padding-left: calc(30px * (1 / 1920 * 1300));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1300));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1300));
+        padding-right: calc(30px * (1 / 1920 * 1300));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1300));
+
+        height: -moz-calc(114px * (1 / 1920 * 1300));
+
+        height: calc(114px * (1 / 1920 * 1300));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1300));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1300));
+
+        border-radius: calc(25px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1300));
+        max-width: -moz-calc(60px * (1 / 1920 * 1300));
+        max-width: calc(60px * (1 / 1920 * 1300));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1300));
+        max-height: -moz-calc(60px * (1 / 1920 * 1300));
+        max-height: calc(60px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1300));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1300));
+        margin-left: calc(26px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1300));
+        font-size: -moz-calc(17px * (1 / 1920 * 1300));
+        font-size: calc(17px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1300));
+        font-size: -moz-calc(15px * (1 / 1920 * 1300));
+        font-size: calc(15px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1300));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1300));
+        margin-left: calc(8px * (1 / 1920 * 1300));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1300));
+
+        width: -moz-calc(66px * (1 / 1920 * 1300));
+
+        width: calc(66px * (1 / 1920 * 1300));
+        height: -webkit-calc(32px * (1 / 1920 * 1300));
+        height: -moz-calc(32px * (1 / 1920 * 1300));
+        height: calc(32px * (1 / 1920 * 1300));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1300));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1300));
+
+        border-radius: calc(8px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1300));
+        max-width: -moz-calc(18px * (1 / 1920 * 1300));
+        max-width: calc(18px * (1 / 1920 * 1300));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1300));
+        max-height: -moz-calc(18px * (1 / 1920 * 1300));
+        max-height: calc(18px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1300));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1300));
+        margin-left: calc(4px * (1 / 1920 * 1300));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1300));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1300));
+
+        font-size: calc(15px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1300));
+        width: -moz-calc(118px * (1 / 1920 * 1300));
+        width: calc(118px * (1 / 1920 * 1300));
+        height: -webkit-calc(62px * (1 / 1920 * 1300));
+        height: -moz-calc(62px * (1 / 1920 * 1300));
+        height: calc(62px * (1 / 1920 * 1300));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1300));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1300));
+
+        border-radius: calc(10px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1300));
+        border-width: -moz-calc(1px * (1 / 1920 * 1300));
+        border-width: calc(1px * (1 / 1920 * 1300));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1300));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1300));
+        border-radius: calc(10px * (1 / 1920 * 1300));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1300));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1300));
+
+        font-size: calc(15px * (1 / 1920 * 1300));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1300));
+        width: -moz-calc(154px * (1 / 1920 * 1300));
+        width: calc(154px * (1 / 1920 * 1300));
+        height: -webkit-calc(62px * (1 / 1920 * 1300));
+        height: -moz-calc(62px * (1 / 1920 * 1300));
+        height: calc(62px * (1 / 1920 * 1300));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1300));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1300));
+
+        border-radius: calc(10px * (1 / 1920 * 1300));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1300));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1300));
+
+        font-size: calc(15px * (1 / 1920 * 1300));
+    }
+
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1300));
+        width: -moz-calc(650px * (1 / 1920 * 1300));
+        width: calc(650px * (1 / 1920 * 1300));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1300));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1300));
+
+        border-radius: calc(32px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1300));
+        height: -moz-calc(124px * (1 / 1920 * 1300));
+        height: calc(124px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1300));
+        font-size: -moz-calc(21px * (1 / 1920 * 1300));
+        font-size: calc(21px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1300));
+        top: -moz-calc(30px * (1 / 1920 * 1300));
+        top: calc(30px * (1 / 1920 * 1300));
+        right: -webkit-calc(30px * (1 / 1920 * 1300));
+        right: -moz-calc(30px * (1 / 1920 * 1300));
+        right: calc(30px * (1 / 1920 * 1300));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1300));
+
+        width: -moz-calc(22px * (1 / 1920 * 1300));
+
+        width: calc(22px * (1 / 1920 * 1300));
+        height: -webkit-calc(22px * (1 / 1920 * 1300));
+        height: -moz-calc(22px * (1 / 1920 * 1300));
+        height: calc(22px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1300));
+        height: -moz-calc(2px * (1 / 1920 * 1300));
+        height: calc(2px * (1 / 1920 * 1300));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1300));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1300));
+        border-radius: calc(2px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1300));
+        height: -moz-calc(2px * (1 / 1920 * 1300));
+        height: calc(2px * (1 / 1920 * 1300));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1300));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1300));
+        border-radius: calc(2px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1300));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1300));
+        padding-top: calc(24px * (1 / 1920 * 1300));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1300));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1300));
+        padding-bottom: calc(52px * (1 / 1920 * 1300));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1300));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1300));
+        padding-left: calc(140px * (1 / 1920 * 1300));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1300));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1300));
+        padding-right: calc(140px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1300));
+        font-size: -moz-calc(21px * (1 / 1920 * 1300));
+        font-size: calc(21px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1300));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1300));
+        margin-top: calc(34px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1300));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1300));
+        margin-bottom: calc(10px * (1 / 1920 * 1300));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1300));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1300));
+
+        font-size: calc(21px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1300));
+        top: -moz-calc(4px * (1 / 1920 * 1300));
+        top: calc(4px * (1 / 1920 * 1300));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1300));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1300));
+        margin-right: calc(14px * (1 / 1920 * 1300));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1300));
+
+        width: -moz-calc(16px * (1 / 1920 * 1300));
+
+        width: calc(16px * (1 / 1920 * 1300));
+        height: -webkit-calc(16px * (1 / 1920 * 1300));
+        height: -moz-calc(16px * (1 / 1920 * 1300));
+        height: calc(16px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1300));
+        width: -moz-calc(6px * (1 / 1920 * 1300));
+        width: calc(6px * (1 / 1920 * 1300));
+        height: -webkit-calc(6px * (1 / 1920 * 1300));
+        height: -moz-calc(6px * (1 / 1920 * 1300));
+        height: calc(6px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1300));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1300));
+        margin-top: calc(50px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1300));
+        width: -moz-calc(218px * (1 / 1920 * 1300));
+        width: calc(218px * (1 / 1920 * 1300));
+        height: -webkit-calc(70px * (1 / 1920 * 1300));
+        height: -moz-calc(70px * (1 / 1920 * 1300));
+        height: calc(70px * (1 / 1920 * 1300));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1300));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1300));
+        border-radius: calc(10px * (1 / 1920 * 1300));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1300));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1300));
+        border-radius: calc(10px * (1 / 1920 * 1300));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1300));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1300));
+
+        font-size: calc(15px * (1 / 1920 * 1300));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1300));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1300));
+
+        border-width: calc(1px * (1 / 1920 * 1300));
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1200));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1200));
+        padding-top: calc(60px * (1 / 1920 * 1200));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1200));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1200));
+        padding-bottom: calc(120px * (1 / 1920 * 1200));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1200));
+        height: -moz-calc(1px * (1 / 1920 * 1200));
+        height: calc(1px * (1 / 1920 * 1200));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1200));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1200));
+
+        margin-top: calc(28px * (1 / 1920 * 1200));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1200));
+        font-size: -moz-calc(48px * (1 / 1920 * 1200));
+        font-size: calc(48px * (1 / 1920 * 1200));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1200));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1200));
+        margin-top: calc(70px * (1 / 1920 * 1200));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1200));
+        font-size: -moz-calc(18px * (1 / 1920 * 1200));
+        font-size: calc(18px * (1 / 1920 * 1200));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1200));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1200));
+        margin-top: calc(58px * (1 / 1920 * 1200));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1200));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1200));
+        padding-right: calc(10px * (1 / 1920 * 1200));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1200));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1200));
+
+        max-height: calc(642px * (1 / 1920 * 1200));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1200));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1200));
+        margin-bottom: calc(18px * (1 / 1920 * 1200));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1200));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1200));
+        padding-top: calc(36px * (1 / 1920 * 1200));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1200));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1200));
+        padding-left: calc(20px * (1 / 1920 * 1200));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1200));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1200));
+        padding-right: calc(20px * (1 / 1920 * 1200));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1200));
+
+        height: -moz-calc(204px * (1 / 1920 * 1200));
+
+        height: calc(204px * (1 / 1920 * 1200));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1200));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1200));
+
+        border-radius: calc(25px * (1 / 1920 * 1200));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1200));
+        font-size: -moz-calc(18px * (1 / 1920 * 1200));
+        font-size: calc(18px * (1 / 1920 * 1200));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1200));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1200));
+        margin-top: calc(32px * (1 / 1920 * 1200));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1200));
+
+        height: -moz-calc(90px * (1 / 1920 * 1200));
+
+        height: calc(90px * (1 / 1920 * 1200));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1200));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1200));
+
+        border-radius: calc(22px * (1 / 1920 * 1200));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1200));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1200));
+        margin-left: calc(18px * (1 / 1920 * 1200));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1200));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1200));
+
+        font-size: calc(18px * (1 / 1920 * 1200));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1200));
+        width: -moz-calc(36px * (1 / 1920 * 1200));
+        width: calc(36px * (1 / 1920 * 1200));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1200));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1200));
+        padding-right: calc(10px * (1 / 1920 * 1200));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1200));
+
+        height: -moz-calc(642px * (1 / 1920 * 1200));
+
+        height: calc(642px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1200));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1200));
+        margin-bottom: calc(18px * (1 / 1920 * 1200));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1200));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1200));
+
+        padding-left: calc(30px * (1 / 1920 * 1200));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1200));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1200));
+        padding-right: calc(30px * (1 / 1920 * 1200));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1200));
+
+        height: -moz-calc(114px * (1 / 1920 * 1200));
+
+        height: calc(114px * (1 / 1920 * 1200));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1200));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1200));
+
+        border-radius: calc(25px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1200));
+        max-width: -moz-calc(60px * (1 / 1920 * 1200));
+        max-width: calc(60px * (1 / 1920 * 1200));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1200));
+        max-height: -moz-calc(60px * (1 / 1920 * 1200));
+        max-height: calc(60px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1200));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1200));
+        margin-left: calc(26px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1200));
+        font-size: -moz-calc(17px * (1 / 1920 * 1200));
+        font-size: calc(17px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1200));
+        font-size: -moz-calc(15px * (1 / 1920 * 1200));
+        font-size: calc(15px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1200));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1200));
+        margin-left: calc(8px * (1 / 1920 * 1200));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1200));
+
+        width: -moz-calc(66px * (1 / 1920 * 1200));
+
+        width: calc(66px * (1 / 1920 * 1200));
+        height: -webkit-calc(32px * (1 / 1920 * 1200));
+        height: -moz-calc(32px * (1 / 1920 * 1200));
+        height: calc(32px * (1 / 1920 * 1200));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1200));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1200));
+
+        border-radius: calc(8px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1200));
+        max-width: -moz-calc(18px * (1 / 1920 * 1200));
+        max-width: calc(18px * (1 / 1920 * 1200));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1200));
+        max-height: -moz-calc(18px * (1 / 1920 * 1200));
+        max-height: calc(18px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1200));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1200));
+        margin-left: calc(4px * (1 / 1920 * 1200));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1200));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1200));
+
+        font-size: calc(15px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1200));
+        width: -moz-calc(118px * (1 / 1920 * 1200));
+        width: calc(118px * (1 / 1920 * 1200));
+        height: -webkit-calc(62px * (1 / 1920 * 1200));
+        height: -moz-calc(62px * (1 / 1920 * 1200));
+        height: calc(62px * (1 / 1920 * 1200));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1200));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1200));
+
+        border-radius: calc(10px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1200));
+        border-width: -moz-calc(1px * (1 / 1920 * 1200));
+        border-width: calc(1px * (1 / 1920 * 1200));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1200));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1200));
+        border-radius: calc(10px * (1 / 1920 * 1200));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1200));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1200));
+
+        font-size: calc(15px * (1 / 1920 * 1200));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1200));
+        width: -moz-calc(154px * (1 / 1920 * 1200));
+        width: calc(154px * (1 / 1920 * 1200));
+        height: -webkit-calc(62px * (1 / 1920 * 1200));
+        height: -moz-calc(62px * (1 / 1920 * 1200));
+        height: calc(62px * (1 / 1920 * 1200));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1200));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1200));
+
+        border-radius: calc(10px * (1 / 1920 * 1200));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1200));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1200));
+
+        font-size: calc(15px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1200));
+        width: -moz-calc(650px * (1 / 1920 * 1200));
+        width: calc(650px * (1 / 1920 * 1200));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1200));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1200));
+
+        border-radius: calc(32px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1200));
+        height: -moz-calc(124px * (1 / 1920 * 1200));
+        height: calc(124px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1200));
+        font-size: -moz-calc(21px * (1 / 1920 * 1200));
+        font-size: calc(21px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1200));
+        top: -moz-calc(30px * (1 / 1920 * 1200));
+        top: calc(30px * (1 / 1920 * 1200));
+        right: -webkit-calc(30px * (1 / 1920 * 1200));
+        right: -moz-calc(30px * (1 / 1920 * 1200));
+        right: calc(30px * (1 / 1920 * 1200));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1200));
+
+        width: -moz-calc(22px * (1 / 1920 * 1200));
+
+        width: calc(22px * (1 / 1920 * 1200));
+        height: -webkit-calc(22px * (1 / 1920 * 1200));
+        height: -moz-calc(22px * (1 / 1920 * 1200));
+        height: calc(22px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1200));
+        height: -moz-calc(2px * (1 / 1920 * 1200));
+        height: calc(2px * (1 / 1920 * 1200));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1200));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1200));
+        border-radius: calc(2px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1200));
+        height: -moz-calc(2px * (1 / 1920 * 1200));
+        height: calc(2px * (1 / 1920 * 1200));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1200));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1200));
+        border-radius: calc(2px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1200));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1200));
+        padding-top: calc(24px * (1 / 1920 * 1200));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1200));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1200));
+        padding-bottom: calc(52px * (1 / 1920 * 1200));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1200));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1200));
+        padding-left: calc(140px * (1 / 1920 * 1200));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1200));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1200));
+        padding-right: calc(140px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1200));
+        font-size: -moz-calc(21px * (1 / 1920 * 1200));
+        font-size: calc(21px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1200));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1200));
+        margin-top: calc(34px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1200));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1200));
+        margin-bottom: calc(10px * (1 / 1920 * 1200));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1200));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1200));
+
+        font-size: calc(21px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1200));
+        top: -moz-calc(4px * (1 / 1920 * 1200));
+        top: calc(4px * (1 / 1920 * 1200));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1200));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1200));
+        margin-right: calc(14px * (1 / 1920 * 1200));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1200));
+
+        width: -moz-calc(16px * (1 / 1920 * 1200));
+
+        width: calc(16px * (1 / 1920 * 1200));
+        height: -webkit-calc(16px * (1 / 1920 * 1200));
+        height: -moz-calc(16px * (1 / 1920 * 1200));
+        height: calc(16px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1200));
+        width: -moz-calc(6px * (1 / 1920 * 1200));
+        width: calc(6px * (1 / 1920 * 1200));
+        height: -webkit-calc(6px * (1 / 1920 * 1200));
+        height: -moz-calc(6px * (1 / 1920 * 1200));
+        height: calc(6px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1200));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1200));
+        margin-top: calc(50px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1200));
+        width: -moz-calc(218px * (1 / 1920 * 1200));
+        width: calc(218px * (1 / 1920 * 1200));
+        height: -webkit-calc(70px * (1 / 1920 * 1200));
+        height: -moz-calc(70px * (1 / 1920 * 1200));
+        height: calc(70px * (1 / 1920 * 1200));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1200));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1200));
+        border-radius: calc(10px * (1 / 1920 * 1200));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1200));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1200));
+        border-radius: calc(10px * (1 / 1920 * 1200));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1200));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1200));
+
+        font-size: calc(15px * (1 / 1920 * 1200));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1200));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1200));
+
+        border-width: calc(1px * (1 / 1920 * 1200));
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 1100));
+        padding-top: -moz-calc(60px * (1 / 1920 * 1100));
+        padding-top: calc(60px * (1 / 1920 * 1100));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 1100));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 1100));
+        padding-bottom: calc(120px * (1 / 1920 * 1100));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 1100));
+        height: -moz-calc(1px * (1 / 1920 * 1100));
+        height: calc(1px * (1 / 1920 * 1100));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 1100));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 1100));
+
+        margin-top: calc(28px * (1 / 1920 * 1100));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 1100));
+        font-size: -moz-calc(48px * (1 / 1920 * 1100));
+        font-size: calc(48px * (1 / 1920 * 1100));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 1100));
+        margin-top: -moz-calc(70px * (1 / 1920 * 1100));
+        margin-top: calc(70px * (1 / 1920 * 1100));
+        font-size: -webkit-calc(18px * (1 / 1920 * 1100));
+        font-size: -moz-calc(18px * (1 / 1920 * 1100));
+        font-size: calc(18px * (1 / 1920 * 1100));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 1100));
+        margin-top: -moz-calc(58px * (1 / 1920 * 1100));
+        margin-top: calc(58px * (1 / 1920 * 1100));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1100));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1100));
+        padding-right: calc(10px * (1 / 1920 * 1100));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 1100));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 1100));
+
+        max-height: calc(642px * (1 / 1920 * 1100));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1100));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1100));
+        margin-bottom: calc(18px * (1 / 1920 * 1100));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 1100));
+        padding-top: -moz-calc(36px * (1 / 1920 * 1100));
+        padding-top: calc(36px * (1 / 1920 * 1100));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 1100));
+        padding-left: -moz-calc(20px * (1 / 1920 * 1100));
+        padding-left: calc(20px * (1 / 1920 * 1100));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 1100));
+        padding-right: -moz-calc(20px * (1 / 1920 * 1100));
+        padding-right: calc(20px * (1 / 1920 * 1100));
+
+        height: -webkit-calc(204px * (1 / 1920 * 1100));
+
+        height: -moz-calc(204px * (1 / 1920 * 1100));
+
+        height: calc(204px * (1 / 1920 * 1100));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1100));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1100));
+
+        border-radius: calc(25px * (1 / 1920 * 1100));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 1100));
+        font-size: -moz-calc(18px * (1 / 1920 * 1100));
+        font-size: calc(18px * (1 / 1920 * 1100));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 1100));
+        margin-top: -moz-calc(32px * (1 / 1920 * 1100));
+        margin-top: calc(32px * (1 / 1920 * 1100));
+
+        height: -webkit-calc(90px * (1 / 1920 * 1100));
+
+        height: -moz-calc(90px * (1 / 1920 * 1100));
+
+        height: calc(90px * (1 / 1920 * 1100));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 1100));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 1100));
+
+        border-radius: calc(22px * (1 / 1920 * 1100));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 1100));
+        margin-left: -moz-calc(18px * (1 / 1920 * 1100));
+        margin-left: calc(18px * (1 / 1920 * 1100));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 1100));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 1100));
+
+        font-size: calc(18px * (1 / 1920 * 1100));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 1100));
+        width: -moz-calc(36px * (1 / 1920 * 1100));
+        width: calc(36px * (1 / 1920 * 1100));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 1100));
+        padding-right: -moz-calc(10px * (1 / 1920 * 1100));
+        padding-right: calc(10px * (1 / 1920 * 1100));
+
+        height: -webkit-calc(642px * (1 / 1920 * 1100));
+
+        height: -moz-calc(642px * (1 / 1920 * 1100));
+
+        height: calc(642px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 1100));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 1100));
+        margin-bottom: calc(18px * (1 / 1920 * 1100));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 1100));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 1100));
+
+        padding-left: calc(30px * (1 / 1920 * 1100));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 1100));
+        padding-right: -moz-calc(30px * (1 / 1920 * 1100));
+        padding-right: calc(30px * (1 / 1920 * 1100));
+
+        height: -webkit-calc(114px * (1 / 1920 * 1100));
+
+        height: -moz-calc(114px * (1 / 1920 * 1100));
+
+        height: calc(114px * (1 / 1920 * 1100));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 1100));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 1100));
+
+        border-radius: calc(25px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 1100));
+        max-width: -moz-calc(60px * (1 / 1920 * 1100));
+        max-width: calc(60px * (1 / 1920 * 1100));
+        max-height: -webkit-calc(60px * (1 / 1920 * 1100));
+        max-height: -moz-calc(60px * (1 / 1920 * 1100));
+        max-height: calc(60px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 1100));
+        margin-left: -moz-calc(26px * (1 / 1920 * 1100));
+        margin-left: calc(26px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 1100));
+        font-size: -moz-calc(17px * (1 / 1920 * 1100));
+        font-size: calc(17px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 1100));
+        font-size: -moz-calc(15px * (1 / 1920 * 1100));
+        font-size: calc(15px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 1100));
+        margin-left: -moz-calc(8px * (1 / 1920 * 1100));
+        margin-left: calc(8px * (1 / 1920 * 1100));
+
+        width: -webkit-calc(66px * (1 / 1920 * 1100));
+
+        width: -moz-calc(66px * (1 / 1920 * 1100));
+
+        width: calc(66px * (1 / 1920 * 1100));
+        height: -webkit-calc(32px * (1 / 1920 * 1100));
+        height: -moz-calc(32px * (1 / 1920 * 1100));
+        height: calc(32px * (1 / 1920 * 1100));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 1100));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 1100));
+
+        border-radius: calc(8px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 1100));
+        max-width: -moz-calc(18px * (1 / 1920 * 1100));
+        max-width: calc(18px * (1 / 1920 * 1100));
+        max-height: -webkit-calc(18px * (1 / 1920 * 1100));
+        max-height: -moz-calc(18px * (1 / 1920 * 1100));
+        max-height: calc(18px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 1100));
+        margin-left: -moz-calc(4px * (1 / 1920 * 1100));
+        margin-left: calc(4px * (1 / 1920 * 1100));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1100));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1100));
+
+        font-size: calc(15px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 1100));
+        width: -moz-calc(118px * (1 / 1920 * 1100));
+        width: calc(118px * (1 / 1920 * 1100));
+        height: -webkit-calc(62px * (1 / 1920 * 1100));
+        height: -moz-calc(62px * (1 / 1920 * 1100));
+        height: calc(62px * (1 / 1920 * 1100));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1100));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1100));
+
+        border-radius: calc(10px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 1100));
+        border-width: -moz-calc(1px * (1 / 1920 * 1100));
+        border-width: calc(1px * (1 / 1920 * 1100));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1100));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1100));
+        border-radius: calc(10px * (1 / 1920 * 1100));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1100));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1100));
+
+        font-size: calc(15px * (1 / 1920 * 1100));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 1100));
+        width: -moz-calc(154px * (1 / 1920 * 1100));
+        width: calc(154px * (1 / 1920 * 1100));
+        height: -webkit-calc(62px * (1 / 1920 * 1100));
+        height: -moz-calc(62px * (1 / 1920 * 1100));
+        height: calc(62px * (1 / 1920 * 1100));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1100));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1100));
+
+        border-radius: calc(10px * (1 / 1920 * 1100));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1100));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1100));
+
+        font-size: calc(15px * (1 / 1920 * 1100));
+    }
+
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 1100));
+        width: -moz-calc(650px * (1 / 1920 * 1100));
+        width: calc(650px * (1 / 1920 * 1100));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 1100));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 1100));
+
+        border-radius: calc(32px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 1100));
+        height: -moz-calc(124px * (1 / 1920 * 1100));
+        height: calc(124px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1100));
+        font-size: -moz-calc(21px * (1 / 1920 * 1100));
+        font-size: calc(21px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 1100));
+        top: -moz-calc(30px * (1 / 1920 * 1100));
+        top: calc(30px * (1 / 1920 * 1100));
+        right: -webkit-calc(30px * (1 / 1920 * 1100));
+        right: -moz-calc(30px * (1 / 1920 * 1100));
+        right: calc(30px * (1 / 1920 * 1100));
+
+        width: -webkit-calc(22px * (1 / 1920 * 1100));
+
+        width: -moz-calc(22px * (1 / 1920 * 1100));
+
+        width: calc(22px * (1 / 1920 * 1100));
+        height: -webkit-calc(22px * (1 / 1920 * 1100));
+        height: -moz-calc(22px * (1 / 1920 * 1100));
+        height: calc(22px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 1100));
+        height: -moz-calc(2px * (1 / 1920 * 1100));
+        height: calc(2px * (1 / 1920 * 1100));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1100));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1100));
+        border-radius: calc(2px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 1100));
+        height: -moz-calc(2px * (1 / 1920 * 1100));
+        height: calc(2px * (1 / 1920 * 1100));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 1100));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 1100));
+        border-radius: calc(2px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 1100));
+        padding-top: -moz-calc(24px * (1 / 1920 * 1100));
+        padding-top: calc(24px * (1 / 1920 * 1100));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 1100));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 1100));
+        padding-bottom: calc(52px * (1 / 1920 * 1100));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 1100));
+        padding-left: -moz-calc(140px * (1 / 1920 * 1100));
+        padding-left: calc(140px * (1 / 1920 * 1100));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 1100));
+        padding-right: -moz-calc(140px * (1 / 1920 * 1100));
+        padding-right: calc(140px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 1100));
+        font-size: -moz-calc(21px * (1 / 1920 * 1100));
+        font-size: calc(21px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 1100));
+        margin-top: -moz-calc(34px * (1 / 1920 * 1100));
+        margin-top: calc(34px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 1100));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 1100));
+        margin-bottom: calc(10px * (1 / 1920 * 1100));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 1100));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 1100));
+
+        font-size: calc(21px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 1100));
+        top: -moz-calc(4px * (1 / 1920 * 1100));
+        top: calc(4px * (1 / 1920 * 1100));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 1100));
+        margin-right: -moz-calc(14px * (1 / 1920 * 1100));
+        margin-right: calc(14px * (1 / 1920 * 1100));
+
+        width: -webkit-calc(16px * (1 / 1920 * 1100));
+
+        width: -moz-calc(16px * (1 / 1920 * 1100));
+
+        width: calc(16px * (1 / 1920 * 1100));
+        height: -webkit-calc(16px * (1 / 1920 * 1100));
+        height: -moz-calc(16px * (1 / 1920 * 1100));
+        height: calc(16px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 1100));
+        width: -moz-calc(6px * (1 / 1920 * 1100));
+        width: calc(6px * (1 / 1920 * 1100));
+        height: -webkit-calc(6px * (1 / 1920 * 1100));
+        height: -moz-calc(6px * (1 / 1920 * 1100));
+        height: calc(6px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 1100));
+        margin-top: -moz-calc(50px * (1 / 1920 * 1100));
+        margin-top: calc(50px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 1100));
+        width: -moz-calc(218px * (1 / 1920 * 1100));
+        width: calc(218px * (1 / 1920 * 1100));
+        height: -webkit-calc(70px * (1 / 1920 * 1100));
+        height: -moz-calc(70px * (1 / 1920 * 1100));
+        height: calc(70px * (1 / 1920 * 1100));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1100));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1100));
+        border-radius: calc(10px * (1 / 1920 * 1100));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 1100));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 1100));
+        border-radius: calc(10px * (1 / 1920 * 1100));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 1100));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 1100));
+
+        font-size: calc(15px * (1 / 1920 * 1100));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 1100));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 1100));
+
+        border-width: calc(1px * (1 / 1920 * 1100));
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .freegold {
+        padding-top: -webkit-calc(60px * (1 / 1920 * 992));
+        padding-top: -moz-calc(60px * (1 / 1920 * 992));
+        padding-top: calc(60px * (1 / 1920 * 992));
+        padding-bottom: -webkit-calc(120px * (1 / 1920 * 992));
+        padding-bottom: -moz-calc(120px * (1 / 1920 * 992));
+        padding-bottom: calc(120px * (1 / 1920 * 992));
+    }
+
+    .freegold__line {
+        height: -webkit-calc(1px * (1 / 1920 * 992));
+        height: -moz-calc(1px * (1 / 1920 * 992));
+        height: calc(1px * (1 / 1920 * 992));
+
+        margin-top: -webkit-calc(28px * (1 / 1920 * 992));
+
+        margin-top: -moz-calc(28px * (1 / 1920 * 992));
+
+        margin-top: calc(28px * (1 / 1920 * 992));
+    }
+
+    .freegold .ttl48 {
+        text-align: center;
+        font-size: -webkit-calc(48px * (1 / 1920 * 992));
+        font-size: -moz-calc(48px * (1 / 1920 * 992));
+        font-size: calc(48px * (1 / 1920 * 992));
+    }
+
+    .freegold .txt18 {
+        margin-top: -webkit-calc(70px * (1 / 1920 * 992));
+        margin-top: -moz-calc(70px * (1 / 1920 * 992));
+        margin-top: calc(70px * (1 / 1920 * 992));
+        font-size: -webkit-calc(18px * (1 / 1920 * 992));
+        font-size: -moz-calc(18px * (1 / 1920 * 992));
+        font-size: calc(18px * (1 / 1920 * 992));
+    }
+
+    .freegold__container {
+        margin-top: -webkit-calc(58px * (1 / 1920 * 992));
+        margin-top: -moz-calc(58px * (1 / 1920 * 992));
+        margin-top: calc(58px * (1 / 1920 * 992));
+    }
+
+    .freegold__left {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 992));
+        padding-right: -moz-calc(10px * (1 / 1920 * 992));
+        padding-right: calc(10px * (1 / 1920 * 992));
+
+        max-height: -webkit-calc(642px * (1 / 1920 * 992));
+
+        max-height: -moz-calc(642px * (1 / 1920 * 992));
+
+        max-height: calc(642px * (1 / 1920 * 992));
+    }
+
+    .freegold__block {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 992));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 992));
+        margin-bottom: calc(18px * (1 / 1920 * 992));
+        padding-top: -webkit-calc(36px * (1 / 1920 * 992));
+        padding-top: -moz-calc(36px * (1 / 1920 * 992));
+        padding-top: calc(36px * (1 / 1920 * 992));
+        padding-left: -webkit-calc(20px * (1 / 1920 * 992));
+        padding-left: -moz-calc(20px * (1 / 1920 * 992));
+        padding-left: calc(20px * (1 / 1920 * 992));
+        padding-right: -webkit-calc(20px * (1 / 1920 * 992));
+        padding-right: -moz-calc(20px * (1 / 1920 * 992));
+        padding-right: calc(20px * (1 / 1920 * 992));
+
+        height: -webkit-calc(204px * (1 / 1920 * 992));
+
+        height: -moz-calc(204px * (1 / 1920 * 992));
+
+        height: calc(204px * (1 / 1920 * 992));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 992));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 992));
+
+        border-radius: calc(25px * (1 / 1920 * 992));
+    }
+
+    .freegold__block_ttl {
+        font-size: -webkit-calc(18px * (1 / 1920 * 992));
+        font-size: -moz-calc(18px * (1 / 1920 * 992));
+        font-size: calc(18px * (1 / 1920 * 992));
+    }
+
+    .freegold__block_descr {
+        margin-top: -webkit-calc(32px * (1 / 1920 * 992));
+        margin-top: -moz-calc(32px * (1 / 1920 * 992));
+        margin-top: calc(32px * (1 / 1920 * 992));
+
+        height: -webkit-calc(90px * (1 / 1920 * 992));
+
+        height: -moz-calc(90px * (1 / 1920 * 992));
+
+        height: calc(90px * (1 / 1920 * 992));
+
+        -webkit-border-radius: -webkit-calc(22px * (1 / 1920 * 992));
+
+        -moz-border-radius: -moz-calc(22px * (1 / 1920 * 992));
+
+        border-radius: calc(22px * (1 / 1920 * 992));
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: -webkit-calc(18px * (1 / 1920 * 992));
+        margin-left: -moz-calc(18px * (1 / 1920 * 992));
+        margin-left: calc(18px * (1 / 1920 * 992));
+
+        font-size: -webkit-calc(18px * (1 / 1920 * 992));
+
+        font-size: -moz-calc(18px * (1 / 1920 * 992));
+
+        font-size: calc(18px * (1 / 1920 * 992));
+    }
+
+    .freegold__block_descr_icon {
+        width: -webkit-calc(36px * (1 / 1920 * 992));
+        width: -moz-calc(36px * (1 / 1920 * 992));
+        width: calc(36px * (1 / 1920 * 992));
+    }
+
+    .freegold__right {
+        padding-right: -webkit-calc(10px * (1 / 1920 * 992));
+        padding-right: -moz-calc(10px * (1 / 1920 * 992));
+        padding-right: calc(10px * (1 / 1920 * 992));
+
+        height: -webkit-calc(642px * (1 / 1920 * 992));
+
+        height: -moz-calc(642px * (1 / 1920 * 992));
+
+        height: calc(642px * (1 / 1920 * 992));
+    }
+
+    .freegold__task {
+        margin-bottom: -webkit-calc(18px * (1 / 1920 * 992));
+        margin-bottom: -moz-calc(18px * (1 / 1920 * 992));
+        margin-bottom: calc(18px * (1 / 1920 * 992));
+
+        padding-left: -webkit-calc(30px * (1 / 1920 * 992));
+
+        padding-left: -moz-calc(30px * (1 / 1920 * 992));
+
+        padding-left: calc(30px * (1 / 1920 * 992));
+        padding-right: -webkit-calc(30px * (1 / 1920 * 992));
+        padding-right: -moz-calc(30px * (1 / 1920 * 992));
+        padding-right: calc(30px * (1 / 1920 * 992));
+
+        height: -webkit-calc(114px * (1 / 1920 * 992));
+
+        height: -moz-calc(114px * (1 / 1920 * 992));
+
+        height: calc(114px * (1 / 1920 * 992));
+
+        -webkit-border-radius: -webkit-calc(25px * (1 / 1920 * 992));
+
+        -moz-border-radius: -moz-calc(25px * (1 / 1920 * 992));
+
+        border-radius: calc(25px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_icon {
+        max-width: -webkit-calc(60px * (1 / 1920 * 992));
+        max-width: -moz-calc(60px * (1 / 1920 * 992));
+        max-width: calc(60px * (1 / 1920 * 992));
+        max-height: -webkit-calc(60px * (1 / 1920 * 992));
+        max-height: -moz-calc(60px * (1 / 1920 * 992));
+        max-height: calc(60px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_left_sub {
+        margin-left: -webkit-calc(26px * (1 / 1920 * 992));
+        margin-left: -moz-calc(26px * (1 / 1920 * 992));
+        margin-left: calc(26px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_ttl {
+        font-size: -webkit-calc(17px * (1 / 1920 * 992));
+        font-size: -moz-calc(17px * (1 / 1920 * 992));
+        font-size: calc(17px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_txt {
+        font-size: -webkit-calc(15px * (1 / 1920 * 992));
+        font-size: -moz-calc(15px * (1 / 1920 * 992));
+        font-size: calc(15px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_prize {
+        margin-left: -webkit-calc(8px * (1 / 1920 * 992));
+        margin-left: -moz-calc(8px * (1 / 1920 * 992));
+        margin-left: calc(8px * (1 / 1920 * 992));
+
+        width: -webkit-calc(66px * (1 / 1920 * 992));
+
+        width: -moz-calc(66px * (1 / 1920 * 992));
+
+        width: calc(66px * (1 / 1920 * 992));
+        height: -webkit-calc(32px * (1 / 1920 * 992));
+        height: -moz-calc(32px * (1 / 1920 * 992));
+        height: calc(32px * (1 / 1920 * 992));
+
+        -webkit-border-radius: -webkit-calc(8px * (1 / 1920 * 992));
+
+        -moz-border-radius: -moz-calc(8px * (1 / 1920 * 992));
+
+        border-radius: calc(8px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_prize_icon {
+        max-width: -webkit-calc(18px * (1 / 1920 * 992));
+        max-width: -moz-calc(18px * (1 / 1920 * 992));
+        max-width: calc(18px * (1 / 1920 * 992));
+        max-height: -webkit-calc(18px * (1 / 1920 * 992));
+        max-height: -moz-calc(18px * (1 / 1920 * 992));
+        max-height: calc(18px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: -webkit-calc(4px * (1 / 1920 * 992));
+        margin-left: -moz-calc(4px * (1 / 1920 * 992));
+        margin-left: calc(4px * (1 / 1920 * 992));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 992));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 992));
+
+        font-size: calc(15px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_start_wrap {
+        width: -webkit-calc(118px * (1 / 1920 * 992));
+        width: -moz-calc(118px * (1 / 1920 * 992));
+        width: calc(118px * (1 / 1920 * 992));
+        height: -webkit-calc(62px * (1 / 1920 * 992));
+        height: -moz-calc(62px * (1 / 1920 * 992));
+        height: calc(62px * (1 / 1920 * 992));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 992));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 992));
+
+        border-radius: calc(10px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_start {
+        border-width: -webkit-calc(1px * (1 / 1920 * 992));
+        border-width: -moz-calc(1px * (1 / 1920 * 992));
+        border-width: calc(1px * (1 / 1920 * 992));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 992));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 992));
+        border-radius: calc(10px * (1 / 1920 * 992));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 992));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 992));
+
+        font-size: calc(15px * (1 / 1920 * 992));
+    }
+
+    .freegold__task_done {
+        width: -webkit-calc(154px * (1 / 1920 * 992));
+        width: -moz-calc(154px * (1 / 1920 * 992));
+        width: calc(154px * (1 / 1920 * 992));
+        height: -webkit-calc(62px * (1 / 1920 * 992));
+        height: -moz-calc(62px * (1 / 1920 * 992));
+        height: calc(62px * (1 / 1920 * 992));
+
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 992));
+
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 992));
+
+        border-radius: calc(10px * (1 / 1920 * 992));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 992));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 992));
+
+        font-size: calc(15px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__window {
+        width: -webkit-calc(650px * (1 / 1920 * 992));
+        width: -moz-calc(650px * (1 / 1920 * 992));
+        width: calc(650px * (1 / 1920 * 992));
+
+        -webkit-border-radius: -webkit-calc(32px * (1 / 1920 * 992));
+
+        -moz-border-radius: -moz-calc(32px * (1 / 1920 * 992));
+
+        border-radius: calc(32px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__header {
+        height: -webkit-calc(124px * (1 / 1920 * 992));
+        height: -moz-calc(124px * (1 / 1920 * 992));
+        height: calc(124px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 992));
+        font-size: -moz-calc(21px * (1 / 1920 * 992));
+        font-size: calc(21px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__close {
+        top: -webkit-calc(30px * (1 / 1920 * 992));
+        top: -moz-calc(30px * (1 / 1920 * 992));
+        top: calc(30px * (1 / 1920 * 992));
+        right: -webkit-calc(30px * (1 / 1920 * 992));
+        right: -moz-calc(30px * (1 / 1920 * 992));
+        right: calc(30px * (1 / 1920 * 992));
+
+        width: -webkit-calc(22px * (1 / 1920 * 992));
+
+        width: -moz-calc(22px * (1 / 1920 * 992));
+
+        width: calc(22px * (1 / 1920 * 992));
+        height: -webkit-calc(22px * (1 / 1920 * 992));
+        height: -moz-calc(22px * (1 / 1920 * 992));
+        height: calc(22px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__close::before {
+        height: -webkit-calc(2px * (1 / 1920 * 992));
+        height: -moz-calc(2px * (1 / 1920 * 992));
+        height: calc(2px * (1 / 1920 * 992));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 992));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 992));
+        border-radius: calc(2px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__close::after {
+        height: -webkit-calc(2px * (1 / 1920 * 992));
+        height: -moz-calc(2px * (1 / 1920 * 992));
+        height: calc(2px * (1 / 1920 * 992));
+        -webkit-border-radius: -webkit-calc(2px * (1 / 1920 * 992));
+        -moz-border-radius: -moz-calc(2px * (1 / 1920 * 992));
+        border-radius: calc(2px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__block {
+        padding-top: -webkit-calc(24px * (1 / 1920 * 992));
+        padding-top: -moz-calc(24px * (1 / 1920 * 992));
+        padding-top: calc(24px * (1 / 1920 * 992));
+        padding-bottom: -webkit-calc(52px * (1 / 1920 * 992));
+        padding-bottom: -moz-calc(52px * (1 / 1920 * 992));
+        padding-bottom: calc(52px * (1 / 1920 * 992));
+        padding-left: -webkit-calc(140px * (1 / 1920 * 992));
+        padding-left: -moz-calc(140px * (1 / 1920 * 992));
+        padding-left: calc(140px * (1 / 1920 * 992));
+        padding-right: -webkit-calc(140px * (1 / 1920 * 992));
+        padding-right: -moz-calc(140px * (1 / 1920 * 992));
+        padding-right: calc(140px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: -webkit-calc(21px * (1 / 1920 * 992));
+        font-size: -moz-calc(21px * (1 / 1920 * 992));
+        font-size: calc(21px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: -webkit-calc(34px * (1 / 1920 * 992));
+        margin-top: -moz-calc(34px * (1 / 1920 * 992));
+        margin-top: calc(34px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: -webkit-calc(10px * (1 / 1920 * 992));
+        margin-bottom: -moz-calc(10px * (1 / 1920 * 992));
+        margin-bottom: calc(10px * (1 / 1920 * 992));
+
+        font-size: -webkit-calc(21px * (1 / 1920 * 992));
+
+        font-size: -moz-calc(21px * (1 / 1920 * 992));
+
+        font-size: calc(21px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: -webkit-calc(4px * (1 / 1920 * 992));
+        top: -moz-calc(4px * (1 / 1920 * 992));
+        top: calc(4px * (1 / 1920 * 992));
+        margin-right: -webkit-calc(14px * (1 / 1920 * 992));
+        margin-right: -moz-calc(14px * (1 / 1920 * 992));
+        margin-right: calc(14px * (1 / 1920 * 992));
+
+        width: -webkit-calc(16px * (1 / 1920 * 992));
+
+        width: -moz-calc(16px * (1 / 1920 * 992));
+
+        width: calc(16px * (1 / 1920 * 992));
+        height: -webkit-calc(16px * (1 / 1920 * 992));
+        height: -moz-calc(16px * (1 / 1920 * 992));
+        height: calc(16px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: -webkit-calc(6px * (1 / 1920 * 992));
+        width: -moz-calc(6px * (1 / 1920 * 992));
+        width: calc(6px * (1 / 1920 * 992));
+        height: -webkit-calc(6px * (1 / 1920 * 992));
+        height: -moz-calc(6px * (1 / 1920 * 992));
+        height: calc(6px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: -webkit-calc(50px * (1 / 1920 * 992));
+        margin-top: -moz-calc(50px * (1 / 1920 * 992));
+        margin-top: calc(50px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: -webkit-calc(218px * (1 / 1920 * 992));
+        width: -moz-calc(218px * (1 / 1920 * 992));
+        width: calc(218px * (1 / 1920 * 992));
+        height: -webkit-calc(70px * (1 / 1920 * 992));
+        height: -moz-calc(70px * (1 / 1920 * 992));
+        height: calc(70px * (1 / 1920 * 992));
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 992));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 992));
+        border-radius: calc(10px * (1 / 1920 * 992));
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: -webkit-calc(10px * (1 / 1920 * 992));
+        -moz-border-radius: -moz-calc(10px * (1 / 1920 * 992));
+        border-radius: calc(10px * (1 / 1920 * 992));
+
+        font-size: -webkit-calc(15px * (1 / 1920 * 992));
+
+        font-size: -moz-calc(15px * (1 / 1920 * 992));
+
+        font-size: calc(15px * (1 / 1920 * 992));
+
+        border-width: -webkit-calc(1px * (1 / 1920 * 992));
+
+        border-width: -moz-calc(1px * (1 / 1920 * 992));
+
+        border-width: calc(1px * (1 / 1920 * 992));
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .freegold {
+        padding-top: 54px;
+        padding-bottom: 108px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 40px;
+    }
+
+    .freegold__line {
+        height: 1px;
+        margin-top: 28px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 70px;
+
+        font-size: 18px;
+    }
+
+    .freegold__container {
+        margin-top: 58px;
+
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+        -webkit-flex-direction: column;
+
+        -moz-box-orient: vertical;
+
+        -moz-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .freegold__left {
+        width: 100%;
+        max-height: 204px;
+
+        padding-right: 10px;
+
+        display: -webkit-box;
+
+        display: -webkit-flex;
+
+        display: -moz-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -moz-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .freegold__block {
+        width: -webkit-calc(50% - 6px);
+        width: -moz-calc(50% - 6px);
+        width: calc(50% - 6px);
+
+        margin-bottom: 12px;
+        padding-top: 36px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 204px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+    }
+
+    .freegold__block:nth-last-child(2) {
+        margin-bottom: unset;
+    }
+
+    .freegold__block_ttl {
+        font-size: 18px;
+    }
+
+    .freegold__block_descr {
+        margin-top: 32px;
+        height: 90px;
+        -webkit-border-radius: 22px;
+        -moz-border-radius: 22px;
+        border-radius: 22px;
+    }
+
+    .freegold__block_descr_icon {
+        width: 36px;
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: 18px;
+        font-size: 18px;
+    }
+
+    .freegold__right {
+        margin-top: 30px;
+        padding-right: 10px;
+
+        width: 100%;
+        height: 378px;
+    }
+
+    .freegold__task {
+        margin-bottom: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 114px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+    }
+
+    .freegold__task_icon {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+    .freegold__task_left_sub {
+        margin-left: 26px;
+    }
+
+    .freegold__task_ttl {
+        font-size: 17px;
+    }
+
+    .freegold__task_txt {
+        font-size: 15px;
+    }
+
+    .freegold__task_prize {
+        margin-left: 8px;
+        width: 66px;
+        height: 32px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .freegold__task_prize_icon {
+        max-width: 18px;
+        max-height: 18px;
+    }
+
+    .freegold__task_prize_sum {
+        margin-left: 4px;
+        font-size: 15px;
+    }
+
+    .freegold__task_start_wrap {
+        width: 118px;
+        height: 62px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .freegold__task_start {
+        border-width: 1px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .freegold__task_done {
+        width: 154px;
+        height: 62px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+
+    .freegoldpopup__window {
+        width: 650px;
+
+        -webkit-border-radius: 32px;
+
+        -moz-border-radius: 32px;
+
+        border-radius: 32px;
+    }
+
+    .freegoldpopup__header {
+        height: 124px;
+    }
+
+    .freegoldpopup__ttl {
+        font-size: 21px;
+    }
+
+    .freegoldpopup__close {
+        top: 30px;
+        right: 30px;
+
+        width: 22px;
+        height: 22px;
+    }
+
+    .freegoldpopup__close::before {
+        height: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    .freegoldpopup__close::after {
+        height: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+    .freegoldpopup__block {
+        padding-top: 24px;
+        padding-bottom: 52px;
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: 21px;
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: 34px;
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: 10px;
+
+        font-size: 21px;
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: 4px;
+        margin-right: 14px;
+
+        width: 16px;
+        height: 16px;
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: 6px;
+        height: 6px;
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: 50px;
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: 218px;
+        height: 70px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+
+        font-size: 15px;
+
+        border-width: 1px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .freegold {
+        padding-top: 52px;
+        padding-bottom: 104px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 38px;
+    }
+
+    .freegold__line {
+        margin-top: 26px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 64px;
+    }
+
+    .freegold__container {
+        margin-top: 54px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .freegold {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 36px;
+    }
+
+    .freegold__line {
+        margin-top: 24px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 56px;
+    }
+
+    .freegold__container {
+        margin-top: 50px;
+    }
+
+    .freegold__left {
+        height: 170px;
+    }
+
+    .freegold__block {
+        width: 50;
+        -top: 30px;
+        padding-left: 14px;
+        padding-right: 14px;
+        height: 170px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        border-radius: 18px;
+    }
+
+    .freegold__block_descr {
+        margin-top: 26px;
+        height: 70px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+    }
+
+    .freegold__block_descr_icon {
+        width: 34px;
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: 16px;
+        font-size: 16px;
+    }
+
+    .freegold__right {
+        max-height: 290px;
+    }
+
+    .freegold__task {
+        margin-bottom: 10px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+        height: 90px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        border-radius: 14px;
+    }
+
+    .freegold__task_icon {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .freegold__task_left_sub {
+        margin-left: 18px;
+    }
+
+    .freegold__task_ttl {
+        font-size: 16px;
+    }
+
+    .freegold__task_txt {
+        font-size: 14px;
+    }
+
+    .freegold__task_start_wrap {
+        width: 100px;
+        height: 50px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .freegold__task_start {
+        font-size: 13px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .freegold__task_done {
+        width: 130px;
+        height: 50px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .freegold {
+        padding-top: 48px;
+        padding-bottom: 96px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 34px;
+    }
+
+    .freegold__line {
+        margin-top: 22px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 48px;
+
+        font-size: 17px;
+    }
+
+    .freegold__container {
+        margin-top: 46px;
+    }
+
+    .freegold__left {
+        height: 140px;
+    }
+
+    .freegold__block {
+        width: -webkit-calc(50% - 3px);
+        width: -moz-calc(50% - 3px);
+        width: calc(50% - 3px);
+        margin-bottom: 8px;
+        padding-top: 22px;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 140px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .freegold__block_descr {
+        margin-top: 22px;
+        height: 60px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        border-radius: 16px;
+    }
+
+    .freegold__block_descr_icon {
+        width: 32px;
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: 14px;
+        font-size: 15px;
+    }
+
+    .freegold__right {
+        max-height: 248px;
+    }
+
+    .freegold__task {
+        margin-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 120px;
+    }
+
+    .freegold__task_left {
+        display: block;
+    }
+
+    .freegold__task_icon {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+    .freegold__task_left_sub {
+        margin-top: 8px;
+        margin-left: unset;
+    }
+
+    .freegoldpopup__window {
+        width: 550px;
+
+        -webkit-border-radius: 28px;
+
+        -moz-border-radius: 28px;
+
+        border-radius: 28px;
+    }
+
+    .freegoldpopup__header {
+        height: 84px;
+    }
+
+    .freegoldpopup__close {
+        top: 20px;
+        right: 20px;
+    }
+
+    .freegoldpopup__ttl {
+        font-size: 18px;
+    }
+
+    .freegoldpopup__block {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: 18px;
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: 26px;
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .freegoldpopup__block_li_dot {
+        top: 2px;
+        margin-right: 8px;
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: 30px;
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: 210px;
+        height: 60px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+    }
+
+    .freegoldpopup__start {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .freegold {
+        padding-top: 46px;
+        padding-bottom: 92px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 32px;
+    }
+
+    .freegold__line {
+        margin-top: 20px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 42px;
+
+        font-size: 16px;
+    }
+
+    .freegold__container {
+        margin-top: 42px;
+    }
+
+    .freegold__left {
+        height: 115px;
+    }
+
+    .freegold__block {
+        width: -webkit-calc(50% - 2px);
+        width: -moz-calc(50% - 2px);
+        width: calc(50% - 2px);
+        margin-bottom: 6px;
+        padding-top: 16px;
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 115px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .freegold__block_ttl {
+        font-size: 16px;
+    }
+
+    .freegold__block_descr {
+        margin-top: 18px;
+        height: 50px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .freegold__block_descr_icon {
+        width: 24px;
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: 12px;
+        font-size: 12px;
+    }
+
+    .freegold__left {
+        max-height: 260px;
+    }
+
+    .freegold__task {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 6px;
+
+        height: auto;
+
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+        -webkit-flex-direction: column;
+
+        -moz-box-orient: vertical;
+
+        -moz-box-direction: normal;
+
+        -ms-flex-direction: column;
+
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .freegold__task_left {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .freegold__task_icon {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .freegold__task_left_sub {
+        margin-top: unset;
+        margin-left: 14px;
+    }
+
+    .freegold__task_start_wrap {
+        margin-top: 10px;
+
+        width: 50%;
+        height: 40px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .freegold__task_start {
+        font-size: 12px;
+    }
+
+    .freegold__task_done {
+        margin-top: 10px;
+
+        width: 50%;
+        height: 40px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+    .freegoldpopup__window {
+        width: 450px;
+
+        -webkit-border-radius: 26px;
+
+        -moz-border-radius: 26px;
+
+        border-radius: 26px;
+    }
+
+    .freegoldpopup__header {
+        height: 74px;
+    }
+
+    .freegoldpopup__ttl {
+        font-size: 16px;
+    }
+
+    .freegoldpopup__close {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .freegoldpopup__block {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .freegoldpopup__block_ttl {
+        font-size: 16px;
+    }
+
+    .freegoldpopup__block_li {
+        font-size: 16px;
+    }
+
+    .freegoldpopup__start_container {
+        margin-top: 24px;
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: 180px;
+        height: 50px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .freegoldpopup__start {
+        font-size: 13px;
+
+        -webkit-border-radius: 4px;
+
+        -moz-border-radius: 4px;
+
+        border-radius: 4px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .freegold {
+        padding-top: 44px;
+        padding-bottom: 88px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 30px;
+    }
+
+    .freegold__line {
+        margin-top: 18px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 36px;
+
+        font-size: 15px;
+    }
+
+    .freegold__container {
+        margin-top: 38px;
+    }
+
+    .freegold__left {
+        height: 200px;
+    }
+
+    .freegold__left::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .freegold__left::-webkit-scrollbar-thumb {
+        width: 4px;
+    }
+
+    .freegold__block {
+        width: 100%;
+        margin-bottom: 12px;
+        padding-top: 36px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 200px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+    }
+
+    .freegold__block:nth-last-child(2) {
+        margin-bottom: 12px;
+    }
+
+    .freegold__block_ttl {
+        font-size: 18px;
+    }
+
+    .freegold__block_descr {
+        margin-top: 32px;
+        height: 90px;
+        -webkit-border-radius: 22px;
+        -moz-border-radius: 22px;
+        border-radius: 22px;
+    }
+
+    .freegold__block_descr_icon {
+        width: 36px;
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: 18px;
+        font-size: 18px;
+    }
+
+    .freegold__right {
+        max-height: 280px;
+    }
+
+    .freegold__right::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .freegold__right::-webkit-scrollbar-thumb {
+        width: 4px;
+    }
+
+    .freegold__task {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .freegold__task_icon {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+    .freegold__task_txt_cont {
+        margin-top: 6px;
+    }
+
+    .freegold__task_txt {
+        width: 200px;
+    }
+
+    .freegold__task_start_wrap {
+        height: 36px;
+
+        -webkit-border-radius: 6px;
+
+        -moz-border-radius: 6px;
+
+        border-radius: 6px;
+    }
+
+    .freegold__task_start {
+        font-size: 11px;
+
+        -webkit-border-radius: 6px;
+
+        -moz-border-radius: 6px;
+
+        border-radius: 6px;
+    }
+
+    .freegold__task_done {
+        height: 36px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        font-size: 11px;
+    }
+
+
+    .freegoldpopup__window {
+        width: 360px;
+
+        -webkit-border-radius: 24px;
+
+        -moz-border-radius: 24px;
+
+        border-radius: 24px;
+    }
+
+    .freegoldpopup__block {
+        padding-left: 44px;
+        padding-right: 44px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .freegold {
+        padding-top: 42px;
+        padding-bottom: 84px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 28px;
+    }
+
+    .freegold__line {
+        margin-top: 16px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 30px;
+
+        font-size: 14px;
+    }
+
+    .freegold__container {
+        margin-top: 34px;
+    }
+
+    .freegold__left {
+        height: 140px;
+    }
+
+    .freegold__block {
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 140px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+    }
+
+    .freegold__block:nth-last-child(2) {
+        margin-bottom: 10px;
+    }
+
+    .freegold__block_ttl {
+        font-size: 16px;
+    }
+
+    .freegold__block_descr {
+        margin-top: 20px;
+        height: 60px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        border-radius: 16px;
+    }
+
+    .freegold__block_descr_icon {
+        width: 28px;
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: 14px;
+        font-size: 14px;
+    }
+
+    .freegold__task {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .freegold__task_icon {
+        max-width: 36px;
+        max-height: 36px;
+    }
+
+    .freegold__task_left_sub {
+        margin-left: 10px;
+    }
+
+    .freegold__task_ttl {
+        font-size: 14px;
+    }
+
+    .freegold__task_txt {
+        width: 180px;
+
+        font-size: 12px;
+    }
+
+    .freegold__task_txt_cont {
+        margin-top: 4px;
+    }
+
+    .freegold__task_start_wrap {
+        height: 34px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+    }
+
+    .freegold__task_start {
+        font-size: 10px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+    }
+
+    .freegold__task_done {
+        height: 34px;
+        font-size: 10px;
+    }
+
+    .freegoldpopup__window {
+        width: 340px;
+
+        -webkit-border-radius: 22px;
+
+        -moz-border-radius: 22px;
+
+        border-radius: 22px;
+    }
+
+    .freegoldpopup__block {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+
+    .freegoldpopup__block_li_dot {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .freegold {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .freegold .ttl48 {
+        font-size: 26px;
+    }
+
+    .freegold__line {
+        margin-top: 14px;
+    }
+
+    .freegold .txt18 {
+        margin-top: 24px;
+    }
+
+    .freegold__container {
+        margin-top: 30px;
+    }
+
+    .freegold__left {
+        height: 110px;
+    }
+
+    .freegold__block {
+        margin-bottom: 8px;
+        padding-top: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
+        height: 110px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+    }
+
+    .freegold__block:nth-last-child(2) {
+        margin-bottom: 8px;
+    }
+
+    .freegold__block_ttl {
+        font-size: 14px;
+    }
+
+    .freegold__block_descr {
+        margin-top: 14px;
+        height: 50px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+    }
+
+    .freegold__block_descr_icon {
+        width: 24px;
+    }
+
+    .freegold__block_descr_ttl {
+        margin-left: 12px;
+        font-size: 12px;
+    }
+
+    .freegold__task_ttl {
+        font-size: 12px;
+    }
+
+    .freegold__task_txt {
+        width: 144px;
+    }
+
+    .freegold__task_prize_icon {
+        max-width: 14px;
+        max-height: 14px;
+    }
+
+    .freegold__task_prize {
+        margin-left: 6px;
+        width: 64px;
+        height: 28px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+    .freegold__task_prize_sum {
+        font-size: 14px;
+    }
+
+
+    .freegoldpopup__window {
+        width: 300px;
+
+        -webkit-border-radius: 20px;
+
+        -moz-border-radius: 20px;
+
+        border-radius: 20px;
+    }
+
+    .freegoldpopup__header {
+        height: 60px;
+    }
+
+    .freegoldpopup__ttl {
+        font-size: 13px;
+    }
+
+    .freegoldpopup__close {
+        right: 14px;
+    }
+
+    .freegoldpopup__block {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .freegoldpopup__block_list {
+        margin-top: 16px;
+    }
+
+    .freegoldpopup__block_li {
+        margin-bottom: 6px;
+
+        font-size: 14px;
+    }
+
+    .freegoldpopup__block_li_dot {
+        margin-right: 4px;
+
+        width: 14px;
+        height: 14px;
+    }
+
+    .freegoldpopup__block_li_dot::after {
+        width: 5px;
+        height: 5px;
+    }
+
+    .freegoldpopup__start_wrapper {
+        width: 160px;
+        height: 40px;
+    }
+
+    .freegoldpopup__start {
+        font-size: 12px;
+    }
+}

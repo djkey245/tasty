@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+
+Allow: /public/css*
+Allow: /public/js*
+Allow: /public/img*
+Allow: /public/fonts*
+Allow: /public/sounds*
+Sitemap: /sitemap.xml
