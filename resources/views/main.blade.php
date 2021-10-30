@@ -39,8 +39,7 @@
                         <div class="main__second_cont cont">
                             @foreach($category->activeLotcases->translate() as $lotcase)
 
-                                <a href="{{LaravelLocalization::localizeUrl('/cases/'.$lotcase->slug)}}"
-                                   class="game__block">
+                                <a href="/cases/{{$lotcase->slug}}" class="game__block">
                                     <img src="/storage/{{$lotcase->img}}" alt="{{$lotcase->title}}">
                                     <div class="game__price">{{trans('project_defs.currency_sign')}}
                                         <span>{{$lotcase->modified_price}}</span></div>
