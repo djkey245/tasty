@@ -17,8 +17,9 @@ class Location
      */
     public function handle(Request $request, Closure $next)
     {
-//        $location = \Stevebauman\Location\Facades\Location::get();
-//        if ($location->countryCode == "RU" && !Auth::check()) {
+//        $location = \Stevebauman\Location\Facades\Location::get('45.151.236.110');
+//        dd($location);
+//        if ($location && $location->countryCode == "RU" && !Auth::check()) {
 //            return redirect(route('home-auth'));
 //        }
         return $next($request);
