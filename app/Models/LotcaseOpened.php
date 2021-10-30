@@ -34,7 +34,7 @@ class LotcaseOpened extends Model
     {
         return Cache::remember('top-case-opens', 604800, function () {
             $openIds = self::query()
-                ->orderByDesc('max_item_price')
+//                ->orderByDesc('max_item_price')
                 ->where('created_at', '>', Carbon::now()->subDays(7)->format('Y-m-d'))
                 ->take(7)
                 ->groupBy('user_id', 'item_id')

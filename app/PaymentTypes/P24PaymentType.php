@@ -4,7 +4,6 @@
 namespace App\PaymentTypes;
 
 
-use App\Models\LangPriceMultiplier;
 use App\Models\Payment;
 use App\Services\P24ApiService;
 use Illuminate\Http\Request;
@@ -71,6 +70,7 @@ class P24PaymentType extends PaymentType implements PaymentTypeInterface
                 $payment->user->addMoney($amount / 100);
             }
             $payment->status = 1;
+            $payment->save();
         }
     }
 
